@@ -1,0 +1,441 @@
+Slip_Sense	Strand	Pt_Identif	Scarp_Face_Dir	Local_Width_m	H_Offset_cm	H_Uncert_cm	V_Separ_cm	V_Uncert_cm	Northing	Easting	Distance_m	Compiler_Notes
+3	2	391	NaN	NaN	0	NaN	0	NaN	3976326.75	436881.5938	123.6499198	Arc C3b; T. Dawson. NW most surface rupture
+3	1	189	NaN	NaN	0	NaN	0	NaN	3965939.25	441848.75	11268.39845	Northern terminus of rupture based on R. Gold and C. DuRoss GPS points
+3	4	238	NaN	NaN	0	NaN	0	NaN	3958141	440882.2813	16610.06769	Arc C2; S. Bennett. Southern termination of fault
+1	11	121	NaN	NaN	0	0	0	0	3935326	464311.7813	49153.78331	"SE rupture termination from K. Scharer, baed on Miliner_Zinke pm 442"
+1	1	117	NaN	NaN	0	0	0	0	3936418.25	466410.3125	49670.37289	SE termination pt from K. Scharer
+3	4	155	2	NaN	0	0.5	8	1	3959818.5	440573.875	15128.3285	Arc C2; S. Bennett
+3	4	161	2	NaN	0	0.5	11	0.5	3958462	440857.2188	16348.36619	Arc C2; S. Bennett.
+3	4	160	2	4	0	0.5	12	0.5	3958642.5	440806.8438	16178.04266	Arc C2; S. Bennett. Scarp facing direction estimated from meas to N and S
+3	2	96	2	35	0	2	15	3	3973913.75	435642.4375	1171.008175	Arc C2; E. Spangler
+3	2	201	2	NaN	0	NaN	16	NaN	3972993.5	436594.5938	2488.234553	R. Gold wpt 379
+3	5	175	2	NaN	0	0.5	17	0.5	3957046.75	444336.6875	19672.47541	Arc C2; B. Swanson
+3	1	227	2	300	0	NaN	17.5	14	3964127.25	443361.125	13628.61975	"Arc C2; C. DuRoss. Diff of W and E strands. E strand 29.5 +/- 13.5 cm = midpt of 21 +/- 5 cm and 36 +/- 7 cm DTW. E strand 12 +/- 3 DTE;  V is diff, uncert in quadr; width from GPS"
+3	6	135	NaN	NaN	0	10	19	10	3959532.5	445354.125	18426.79376	Arc C1;  Nag19; H from K. Kendrick gps; RL assumed based on fault azim
+3	2	200	NaN	NaN	0	NaN	25	NaN	3973057.75	436615.8125	2452.73587	R. Gold wpt 381
+3	4	159	2	NaN	0.5	0.5	5	0.5	3958852.75	440768.1563	15992.20663	Arc C2; S. Bennett. H is LL.
+3	4	451	2	NaN	0.5	0.5	5	NaN	3958792	440769.4375	16039.52725	K. Kendrick gps
+1	10	349	NaN	NaN	0.5	NaN	NaN	NaN	3936176.5	460555.7813	46083.5147	Arc C1; PB2010
+2	2	192	NaN	35	1	2	0	1	3975057.75	436542.0625	875.4747046	"Arc C2; E. Spangler + R. Gold wpts 661, 6631. Width from GPS pts"
+3	2	196	2	1.2	1	1	6	5	3974270.25	435779.7813	986.6893301	Arc C2; E. Spangler + R. Gold wpt 655
+3	2	197	2	1.1	1	2	8	3	3974122.75	435723.7813	1063.487937	Arc C2; E. Spangler
+3	2	398	2	167	1	1	8	NaN	3969404.5	435386.1875	4454.662125	Arc C3b; T. Dawson; width from gps
+2	2	93	2	10	1	1	14	2	3973346.5	436679.3438	2272.70442	Arc C1; MD006 + RyanGold_07172019 -pt 372. H uncert based on possible range of 0.2-2cm in notes
+3	3	151	1	4	1	1	18	NaN	3962038.75	441857.6875	14257.28226	Arc C1; WDZ-012. H is LL. Width estimated from point WDZ-013 to the south.
+1	8	173	NaN	10	1	1	NaN	NaN	3954478.5	448341.6875	24216.84037	Arc C2; C. DuRoss. Near southern termination of fault zone. H of 1 +/- 1cm based on note of cm scale RL possible.
+1	1	379	NaN	NaN	1	NaN	NaN	NaN	3943823	457463.6563	38243.23054	Arc C2; B. Swanson
+1	1	378	NaN	NaN	1	1	NaN	NaN	3943734.25	457617.5	38410.20085	"Arc C1; PB3002, reported as 0.5-1 cm"
+3	6	136	2	17	1.5	0.5	2.5	2.5	3960563.25	445276.9063	17588.69144	Haddon_EKH_0711 (E. Haddon)
+3	2	393	2	NaN	1.5	1.5	3	NaN	3976696.75	437726.9375	385.2611468	Arc C3b; T. Dawson
+3	2	392	2	NaN	1.5	1.5	3	NaN	3976503.75	437671.4375	497.1240849	Arc C3b; T. Dawson
+3	4	158	2	NaN	1.5	1	15	2	3959128	440695.5938	15734.85244	Arc C2; S. Bennett. H is LL.
+2	1	416	NaN	NaN	1.5	0.5	NaN	NaN	3966885	442069.9063	10687.51598	K. Kendrick gps
+2	1	188	NaN	NaN	1.5	0.5	NaN	NaN	3964962.25	442680.4063	12551.31352	B. Philibosian 2019/07/11. Minor cracks with 1-2 cm LL offset
+2	2	194	2	5	2	0.5	0.5	1	3974720	436181.625	901.6718988	Arc C2; E. Spangler + R. Gold wpt 659
+2	5	176	2	NaN	2	0.5	1.5	0.5	3957225.75	444356.1875	19548.05295	Arc C2; B. Swanson
+3	2	401	2	NaN	2	1	3	1	3970475	439437.5938	6246.019939	Arc C3b; K. Thomas
+3	11	343	NaN	NaN	2	0.5	3.5	1	3936038.75	463756.5938	48250.91677	"Miliner_Zinke pm 435. H slip sense not reported, but assumed RL"
+3	5	181	1	2	2	0.5	6	0.5	3959290	444102.3438	17805.85345	Arc C2; E. Spangler. H is LL
+2	1	384	NaN	NaN	2	NaN	NaN	NaN	3943573.5	457830.0938	38670.06981	Arc C1; BO3004
+1	1	438	NaN	NaN	2	1	NaN	NaN	3943514.25	459680.2188	39907.28637	S. Akciz
+1	10	346	NaN	NaN	2	NaN	NaN	NaN	3936422.5	460318.0313	45742.2195	Arc C1; PB2008
+3	5	177	2	NaN	2.2	0.2	6	0.5	3957271.5	444375.0625	19525.29368	Arc C2; S. Bennett. H is LL
+2	2	193	2	0.75	2.5	1	1.5	1	3974797	436271.5938	900.7522537	Arc C2; E. Spangler + R. Gold wpt 660
+1	1	381	NaN	0.5	2.5	NaN	NaN	NaN	3943896	457432	38166.8916	Arc C2; B. Swanson
+1	1	380	NaN	3	2.5	NaN	NaN	NaN	3943845.25	457445.2188	38214.3707	Arc C2; B. Swanson
+1	11	450	NaN	NaN	2.5	1	NaN	NaN	3939842.5	461361.1875	43798.60684	S. Akciz
+1	10	350	NaN	3	2.5	NaN	NaN	NaN	3937562	459619.5313	44420.75319	"Arc C1; PB2006. H based on 5 strands, each with 0.5 cm RL"
+1	10	344	NaN	NaN	2.5	0.5	NaN	NaN	3936868.25	460032.9375	45217.59445	Arc C1; PB2003
+1	10	348	NaN	30	2.5	NaN	NaN	NaN	3936616	460184.375	45508.14365	Arc C1; PB2001
+2	1	9	NaN	NaN	3	1	0	NaN	3966172	441056.375	10579.9657	Arc C2; C. DuRoss
+3	1	16	2	500	3	2	66	11	3963536.75	443556.7813	14206.33093	"Arc C2. Summed DTW pts C. DuRoss (E stand, V 35+/-5 cm, null H), Scharer&GSeitz (central, H 3+/-2 cm, V 4+/-2 cm), C. DuRoss (W strand, V 27+/-10 cm -total slip, null H); V uncert in quadr. Width from GPS pts"
+2	2	206	NaN	NaN	3	NaN	NaN	NaN	3971257.75	436182.8125	3550.550874	Arc C1; AP 3
+2	1	224	NaN	NaN	3	1	NaN	NaN	3966150	441259.6875	10727.77905	R. Gold wpt 624 and Arc C2 G. Seitz
+2	1	40	NaN	NaN	3	NaN	NaN	NaN	3943653	457661.3125	38500.47836	Arc C1; BO3002
+1	11	370	NaN	NaN	3.5	0.5	0	NaN	3937633.25	462960.375	46518.48002	"Sinan_Akciz pm 178, summed with pm 179; uncert is compiler judgement"
+3	2	195	2	1.6	3.5	1	6.5	2	3974339	435820.8438	960.5378855	Arc C2; G. Seitz + R. Gold wpt 656
+1	2	205	NaN	1	4	NaN	3	1	3973456	437746.0938	2876.291548	Arc C1; AP 7
+2	2	85	NaN	NaN	4	NaN	NaN	NaN	3968894.75	438682.9375	6968.342223	Arc C1; Jrp 26
+1	10	351	NaN	NaN	4	NaN	NaN	NaN	3937221.75	459834.7188	44819.56185	Arc C1; PB2005
+1	99	347	NaN	NaN	4	NaN	NaN	NaN	3938064.5	461376.5313	45168.24874	Arc C1; PB2012
+1	10	353	NaN	NaN	4	NaN	NaN	NaN	3936731	460110.2188	45372.28024	Arc C1; PB2002
+1	10	352	NaN	NaN	4.5	NaN	NaN	NaN	3937119	459911.5938	44947.7218	Arc C1; PB2004
+3	2	94	2	NaN	5	NaN	10.5	0.5	3973512.25	436239.0625	1862.276529	Arc C1; Md 8. H is RL. V from MD8 and R. Gold wpt 375 and 376
+1	1	409	NaN	NaN	5	5	NaN	NaN	3948328.25	452711.8125	31736.05958	Arc C3b; B. Swanson; reported as few to 10 cm
+2	2	203	NaN	NaN	5.5	0.5	3	NaN	3972851.25	436630.1875	2619.979224	Arc C1; MD010
+1	1	365	NaN	NaN	6	0.5	0	NaN	3937299	465550.25	48442.56582	Sinan_Akciz pm 14
+3	5	178	2	NaN	6	1	18.5	1	3957509.25	444389.0625	19352.52564	Arc C2; S. Bennett. H is LL
+2	1	225	NaN	NaN	6	2	NaN	NaN	3965925	441763.1563	11224.10072	R. Gold wpt 623
+1	11	374	NaN	NaN	6	2	NaN	NaN	3938367.25	462396.4063	45593.70173	Sinan_Akciz pm 159
+2	1	222	NaN	1.5	6.5	NaN	1	NaN	3965609.75	440477.4375	10636.97986	Arc C1; ES 013
+1	7	302	NaN	1.5	6.5	NaN	NaN	NaN	3955822.25	448445.3438	23255.95276	Arc C2; T. Dawson
+1	11	342	NaN	NaN	7	1.5	1.5	0.5	3937118.75	462763.375	46785.1072	"Miliner_Zinke pm 406. H slip sense not reported, but assumed RL"
+3	5	261	1	220	7	2	15.5	12	3958137.5	444308.6875	18820.18645	"Arc C2; S. Bennett,  E. Spangler, and Scharer corrected fault wpts. Diff of two strands: W - 36.5 +/- 11.5 cm (27 +/- 2 cm and 40, uncert assumed 20%/8cm), DTE, E 21 +/- 1 cm DTW, uncert in quadr. Width from GPS"
+3	1	226	2	150	7	2	29.5	7	3964214.5	443316.6875	13533.20413	Sum of R. Gold wpt 616 and C. DuRoss wpt 21 (uncert in quadr). H is Rl. Width from GPS pts
+3	3	148	NaN	10	7	NaN	50	NaN	3962524.5	441816.5938	13859.37294	Arc C1; WDZ-001. H is RL. V reported as scarp height
+2	2	216	NaN	NaN	7	2	NaN	NaN	3969084.75	438419.9688	6653.732858	R. Gold wpt 485 and EKH_0712 wpt 103
+2	2	217	NaN	NaN	7	2	NaN	NaN	3968508.5	438955.4688	7439.309155	R. Gold wpt 480 and 481 (no uncert; 20% assigned) summed. Uncert in quadr.
+3	6	234	NaN	5	7.5	7.5	18	NaN	3959907.5	445280.2813	18092.43624	"July9_jtj -stop 5, Haddon_EKH_0711 -pm 67 (J. Jobe)"
+1	1	387	NaN	NaN	8	5	7	2	3944395.5	457132.1875	37591.71732	Arc C2; T. Ladinsky
+3	5	263	NaN	NaN	8	1	10	0.5	3957981.25	444401.8125	18999.69074	"Arc C2; E. Spangler. Additional 10cm LL and 20 cm V noted on NW splay 5 m, but insufficient detail to compile"
+2	2	199	NaN	NaN	8	NaN	NaN	NaN	3973447	436407.625	2020.962529	R. Gold wpt 373
+2	2	86	NaN	NaN	8	NaN	NaN	NaN	3969424.5	438686.5	6565.557282	Arc C1; Jrp 32
+1	8	174	NaN	NaN	8	NaN	NaN	NaN	3954642	448369.8438	24109.92551	Arc C2; Nag 31
+2	2	80	NaN	NaN	8.5	1.5	NaN	NaN	3969432.75	438195.5938	6242.981856	RyanGold_07172019 pt 489
+2	2	84	NaN	NaN	8.5	1.5	NaN	NaN	3968737.5	438652.0938	7068.848534	EKH_0712 wpt 101
+2	1	7	NaN	NaN	8.5	NaN	NaN	NaN	3966558.25	440416.4375	9872.286866	Arc C1; ES015
+3	5	179	2	NaN	9	2	20	2	3957650	444364.3125	19228.9581	Arc C2; S. Bennett. H is LL
+1	1	41	NaN	5	9	2	NaN	NaN	3944144	458341.2813	38563.14378	Arc C2; S. Bennett
+2	2	95	NaN	8	10	3	3	1	3974423.75	435864.4688	924.000436	Arc C2; E. Spangler
+3	1	15	2	50	10	5	17	5	3964327.75	443294.75	13432.46521	Arc C2; G. Seitz. Width from GPS pts.
+3	1	14	2	15	10	4	25	6	3964626.5	443048.1563	13045.13171	"Arc C2; G. Seitz and R. Gold wpt 605 for scarp facing dir and width. V is sum of two strands: W 12+/-4cm, E 13+/-5cm; uncert summed. H based on W strand."
+2	2	92	NaN	10	10	NaN	NaN	NaN	3972237.25	437125.5	3408.679911	Arc C1; mD003
+2	2	83	NaN	NaN	10	NaN	NaN	NaN	3968934.75	438739.8125	6974.440948	Arc C1; Jrp 30
+2	1	415	NaN	NaN	10	3	NaN	NaN	3966001	440909.7813	10616.28328	K. Kendrick gps
+1	9	303	NaN	NaN	10	NaN	NaN	NaN	3955546.75	448015.4688	23189.63447	Arc C1; Nag38
+1	11	377	NaN	NaN	10	10	NaN	NaN	3939243.75	461785.2188	44529.54011	"RyanGold wpt 356, reported as <20 cm RL"
+2	2	91	2	9	10.1999998	NaN	7.5	NaN	3971959.5	436837.4375	3435.509929	Arc C1; AP5
+1	1	10	1	100	11	3	2	1	3965843.75	441839.3438	11335.36502	Arc C2;  B. Philibosian and C. DuRoss_obs_July23-25 -waypt 27. Width based on distance to eastern strand (C. DuRoss waypt 26)
+1	2	210	2	NaN	11	3	11	2	3971942.5	437927.4063	4150.644876	R. Gold wpt 369
+3	1	185	2	12	11	8	27.5	7.5	3964512	443146.9063	13196.34421	"Arc C2; G. Seitz and R. Gold wpt 606, both H and V are midpt and range of Seitz and Gold obs"
+1	1	6	NaN	NaN	11	3	NaN	NaN	3966432.25	439976.8125	9685.446882	Arc C2; C. DuRoss
+2	2	209	NaN	NaN	11.5	1.5	5	2	3971562	437131.0938	3928.594781	Arc C1 Nag54 + C. DuRoss wpt 443
+1	1	341	NaN	NaN	12	NaN	NaN	NaN	3937292.75	465490.5625	48408.92617	USC_AlexHatem pt 23
+2	1	223	NaN	4	12.5	2.5	0	NaN	3966246.75	441078.7813	10537.19424	"R. Gold wpt 625, width from Arc C2; G. Seitz"
+1	1	386	NaN	NaN	12.5	4.5	5.5	5	3944296	457224.4375	37727.3647	"Arc C2; T. Ladinsky and B. Swanson, H and V is average, uncert based on range of meas"
+1	2	204	NaN	NaN	12.5	4.5	12	NaN	3972999.75	437928.5	3342.729832	"July7_revised_jtj, Midpt and range of 8cm and 16-17 cm RL obs (J. Jobe)"
+1	11	368	NaN	90	13.5	3.5	NaN	NaN	3938080.5	462615.1563	45953.92919	Sinan_Akciz pm 170 (8-15 cm RL) summed with pm 191 (2 cm RL); width from GPS
+3	5	260	1	350	14	5	18.5	7	3958368.25	444277.4688	18623.61307	"Arc C2; S. Bennett and E. Spangler. Combined two strands. W strand: midpt/range of 2 obs 52 +/- 3 cm DTE, 56 +/- 5 cm DTE, E strand: 35 +/- 1 cm DTW, 38 +/- 1 cm DTW. V based on diff  of midpt, uncert in quadr. H is LL from W strand. Width from GPS"
+1	2	210	NaN	NaN	14	3	NaN	NaN	3971912.5	437920.5938	4169.301312	R. Gold wpt 370
+1	1	5	NaN	NaN	14	2	NaN	NaN	3966613.75	439957.6875	9534.135598	Arc C2; C. DuRoss
+1	11	375	NaN	NaN	14	3	NaN	NaN	3938398.75	462365.6875	45549.85055	Sinan_Akciz pm 158
+1	11	448	NaN	NaN	15	3	NaN	NaN	3939279.75	461749.375	44479.06468	S. Akciz
+1	11	118	NaN	NaN	15	5	NaN	NaN	3938659.75	462208.6563	45249.04235	R. Gold pt 335-TRC
+1	1	388	NaN	NaN	17	3	1.5	1.5	3944404	457070.9375	37545.82922	Sinan_Akciz pm 29
+1	1	108	2	15	17	5	7	NaN	3947949.25	453269.1875	32385.16185	Arc C1; pt 12-2 (AMorelan); width from 12-3
+2	2	207	NaN	NaN	17.5	NaN	NaN	NaN	3971471	436356.375	3499.089036	Arc C1; Airport1
+3	9	311	2	1	18	10	24	10	3952803.75	451392.5938	27463.17313	Arc C2; B. Swanson + RDG wpt 650
+3	1	434	1	NaN	18	4	NaN	NaN	3944703.75	456715.1563	37087.39031	S. Akciz
+1	1	389	NaN	NaN	18	8	NaN	NaN	3944395.5	457077.9375	37556.7877	Arc C2; T. Ladinsky
+1	11	369	2	NaN	18.5	1.5	4	NaN	3937970.75	462725.5938	46109.01356	Sinan_Akciz pm 170 (8-15 cm RL) summed with pm 191 (2 cm RL); width from GPS173 (16-19 cm RL) summed with pm 188 (1 cm RL); width from GPS
+1	8	172	NaN	0.4	19	5	0	NaN	3954639.75	448269.625	24047.07286	Arc C2; C. DuRoss
+2	2	89	1	NaN	19	NaN	2	NaN	3971420.5	436306.0625	3505.299782	Arc C1; AP2. Vert is N side up
+2	1	144	NaN	NaN	19	3	3	2	3965692.25	440574.9688	10636.66689	July8am_jtj -stop 21
+1	1	218	1	5	19	5	7.5	2	3966722	439940.875	9440.504975	R. Gold wpt 630
+1	11	449	NaN	NaN	19	3	NaN	NaN	3939375.75	461679.25	44360.39083	S. Akciz
+2	2	90	2	NaN	20	4	2.5	0.5	3971691.75	436495.3125	3419.934525	RyanGold_07172019 -pt 363
+1	1	187	1	NaN	20	5	3	2	3964922	442847.7188	12690.04086	Arc C2; G. Seitz and R. Gold wpt 600
+2	1	221	1	20	20	5	5	2	3966415	440703.0313	10166.45173	R. Gold wpt 626. Width from Rgold and C. DuRoss GPS pts
+2	2	208	2	NaN	20	4	6	NaN	3971637.25	436453.7813	3434.803142	R. Gold wpt 362
+3	5	180	2	NaN	20	2	31	2	3957778.75	444372.6875	19135.74621	Arc C2; S. Bennett. H is LL
+3	3	147	2	NaN	20	NaN	50	NaN	3962591	441775.4063	13781.90405	Olson_Additional_Mapping_Points -pm 1. H is RL
+1	99	305	NaN	NaN	20	10	NaN	NaN	3953967.5	449146.5938	25126.34302	Arc C1; Nag29
+1	11	120	NaN	NaN	20	NaN	NaN	NaN	3939094	461914.3438	44727.24357	RyanGold wpt 255
+1	11	119	NaN	NaN	20	1	NaN	NaN	3938578.75	462259.0938	45343.55081	July6_jtj stop 2
+1	1	48	NaN	3	20	3	NaN	NaN	3937411	465446	48289.82254	USC_AlexHatem pm 21
+1	9	306	NaN	NaN	24.5	NaN	9	NaN	3954275.5	449671.2188	25228.63761	Arc C2 J. Hernandez. H is sum of two meas 8.5 and 16 cm
+1	1	319	NaN	5	25	5	0	NaN	3945423.25	456023.8125	36091.77345	R. Gold wpt 457
+1	1	322	2	60	25	10	10	5	3945026.25	456446.25	36667.45807	Arc C2; T. Ladinsky; width from GPS
+2	1	98	NaN	NaN	25	NaN	NaN	NaN	3966752	440303.4688	9651.221231	RyanGold_07172019
+2	1	220	NaN	5	25	5	NaN	NaN	3966222	440438.2813	10143.46209	July8am_jtj -stop 20
+1	1	327	NaN	NaN	25	10	NaN	NaN	3944661.25	456774.3438	37158.05248	Arc C1 7.1-010 B. Swanson
+1	1	44	NaN	NaN	25	5	NaN	NaN	3942884.75	460428.9063	40871.07472	Arc C1 PB1025
+1	11	447	NaN	NaN	25	5	NaN	NaN	3938918	462021.625	44931.12644	S. Akciz
+1	1	38	1	110	28	5	7	2	3944726.5	456680.8125	37047.77067	Arc C1 7.1-011 B. Swanson; width from GPS
+2	2	212	2	NaN	28	3	15	5	3969472.25	438790.4063	6596.020239	Arc C1; Nag50 + C. DuRoss wpt 431
+1	1	13	1	10	29	5	8	5	3964866.75	442867.1875	12744.69609	Arc C2; G. Seitz and R. Gold wpt 601
+3	1	433	2	NaN	29	4	NaN	NaN	3944758	456648.1875	37002.80569	S. Akciz
+1	1	110	NaN	1	30	7	0	NaN	3945546	455870.6563	35899.20547	Arc C1; Jrp 08
+1	7	426	NaN	NaN	30	5	5	5	3956948.25	447311.7188	21664.30284	K. Kendrick gps
+2	1	8	1	15	30	10	8	3	3966343.25	440627.6563	10172.69967	Arc C2; C. DuRoss
+1	3	145	NaN	NaN	30	NaN	NaN	NaN	3964312	441356.9063	12196.04149	Arc C1 20190711_001es
+1	8	162	1	NaN	30	5	NaN	NaN	3956237	446886.2188	21934.22361	Arc C2; J. Hernandez
+1	1	317	NaN	0.25	30	5	NaN	NaN	3945612.75	455799.0938	35801.92749	R. Gold wpt 461
+1	1	383	NaN	NaN	30	5	NaN	NaN	3944029.5	457304.375	37982.65467	Arc C2; B. Swanson
+1	1	382	NaN	NaN	30	NaN	NaN	NaN	3943942.75	457356.3125	38082.34458	Arc C2; B. Swanson
+1	1	441	NaN	NaN	30	10	NaN	NaN	3942407.5	460998.0313	41602.72619	S. Akciz
+1	1	446	NaN	NaN	30	NaN	NaN	NaN	3938624.25	464088.5625	46487.27934	S. Akciz
+1	11	371	NaN	NaN	30.5	3.5	NaN	NaN	3938276.5	462470.8125	45711.16806	Sinan_Akciz pm 167
+1	7	301	NaN	NaN	32	6	NaN	NaN	3955952.5	448191.0938	22992.40524	Arc C2; ES008 + C. DuRoss wpt 415 summed
+1	1	252	2	NaN	32	NaN	NaN	NaN	3948970.75	452168.4375	30894.65257	Arc C1; M. DeFrisco wpt 113
+1	1	440	NaN	NaN	32	3	NaN	NaN	3942471.25	460928.6563	41509.26901	S. Akciz
+1	11	376	NaN	NaN	32.5	7.5	0	NaN	3938562.75	462266.2188	45360.32143	Sinan_Akciz pm 149
+1	8	171	2	0.4	34	5	2	2	3954791.5	448164.125	23863.06662	Arc C2; C. DuRoss
+1	1	39	NaN	NaN	35	20	0	NaN	3944528.75	456965.5625	37382.58274	H is midoint/range from Arc C2 T. Ladinsky (23 +/- 8 cm) and PGE points (46 +/- 20%/9 cm)
+1	1	12	1	10	35	15	2	1	3965204.75	442364.0938	12162.09144	"Arc C2; G. Seitz. H range based on R. Gold wpt 617 (30 +/- 10 cm RL) and G. Seitz (30 +/- 10 cm, as much as 50 cm total RL)"
+3	2	214	2	NaN	35	5	55	5	3969617	438921.5625	6569.824684	C. DuRoss wpt 450. H is LL
+3	1	431	2	NaN	35	5	NaN	NaN	3944810.25	456603.5	36934.06308	S. Akciz
+1	2	88	NaN	NaN	36	5	20	5	3970430.25	438006.9688	5358.477686	Arc C1; Nag 51 + C. DuRoss notes on V
+2	2	87	2	NaN	36	5	22	3	3969519.5	438869.3438	6610.623967	Arc C1; N. Graehl pts Nag 55-57. Uncert in quadr
+1	8	166	NaN	NaN	36	NaN	NaN	NaN	3955511.5	447506.0938	22888.48656	Arc C2; J. Hernandez.
+1	11	372	NaN	NaN	36	4	NaN	NaN	3938296	462465.4688	45692.70643	Sinan_Akciz pm 161; 2 meas summed; uncert in quadr
+1	9	54	2	2	37	5	2	1	3954123.5	449824.3125	25443.46039	Arc C2; B. Swanson. 
+1	99	240	1	2	38	5	34	5	3955566.5	446784.7188	22381.6701	Arc C2; T. Dawson
+3	1	432	2	NaN	38	5	NaN	NaN	3944784.75	456631.1875	36971.38125	S. Akciz
+1	1	254	2	50	39.5	6.9000001	17.5	NaN	3948485.75	452721.4375	31621.86317	"Arc C1; MDFricsco wpt 126 (32 +/- 6.4cm-20% assumed) on E strand, combined with arc C3b; B. Swanson: 7.5 +/- 2.5 cm on W strand"
+1	7	61	NaN	NaN	40	10	0	NaN	3957059.25	447236.0625	21530.75338	Arc C2 T. Dawson
+1	7	60	NaN	NaN	40	3	2	NaN	3956185	447947.0313	22657.35785	Arc C2; J. Hernandez
+1	1	335	NaN	6	40	10	5	NaN	3938223.5	464593.9063	47119.34244	USC_AlexHatem pt 6
+1	1	338	2	NaN	40	8	12	4	3937788.5	465059.2188	47751.85633	USC_AlexHatem pt 13
+1	8	419	1	NaN	42	5	13	2	3955287	447656.3125	23156.95121	K. Kendrick gps
+1	1	49	2	0.7	42	10	20	5	3946266.5	455109.5938	34857.75215	RyanGold_07172019 -wpt 509. 
+1	1	329	NaN	NaN	42	5	NaN	NaN	3943873	458839.8438	39091.44833	Arc C1 PB1021
+1	8	418	NaN	NaN	44	2	0	NaN	3955703.75	447355.5938	22644.49619	K. Kendrick gps
+1	1	413	1	NaN	44	2	20	2	3948187.75	453104.7188	32096.65053	"Arc C3b; B. Swanson; reported summed value; unclear if includes separte, minor RL disp to west along road"
+1	8	163	NaN	30	45	5	NaN	NaN	3955928.25	447150.8438	22340.89133	Arc C2; J. Hernandez
+1	1	43	NaN	NaN	45	10	NaN	NaN	3943724.5	459171.9375	39418.9806	Arc C1 PB1022
+1	1	321	2	28	46	8	10	NaN	3945060.75	456417.75	36622.64324	Arc C1; B. Swanson; width from GPS
+1	8	57	NaN	1.3	49	20	0	NaN	3954875.25	448066	23735.75344	Arc C2; C. DuRoss
+1	1	366	2	NaN	50	15	5	NaN	3937226.25	465775.4063	48643.30488	Sinan_Akciz pm 20
+1	8	167	2	NaN	50	15	8	2	3955236.25	447699.2813	23223.38545	Arc C1; BO101. West facing direction based on fault dip of 73deg W
+1	1	190	NaN	40	50	10	NaN	NaN	3965536.25	442170.25	11783.80998	C. DuRoss_obs_July23-25. Total width based on GPS
+1	1	113	NaN	NaN	50	5	NaN	NaN	3939025.5	463723.375	45945.08026	"R. Gold wpt 357railroad, uncert encompasses July6_jtj stop 7"
+1	1	314	2	NaN	51	30	20	10	3947652	453657.875	32862.79665	R. Gold wpt 520
+1	9	51	NaN	0.1	52	5	0	1	3952593.75	451607.5625	27762.34225	Arc C2; B. Swanson + RDG notes
+1	1	0	1	20	52	20	30.5	14	3968009.25	439329.8438	8062.403489	"Arc C1; Jrp 13. V based on Jrp 13 and RDG notes (36+/-10cm DTE) - average of both, uncert in quadr"
+1	7	102	NaN	NaN	52	4	NaN	NaN	3956675.75	447558.0625	22031.5423	Arc C2; J. Hernandez
+1	8	165	NaN	NaN	53	NaN	NaN	NaN	3955713.25	447347.3125	22631.90854	Arc C2; J. Hernandez.
+1	1	4	1	150	54	2	30	5	3967458.25	439737.0313	8746.191316	"Combined from two strands: W strand Arc C1; MD011 (34cm DTE, no H), E strand July8am_jtj -stop5 (54+/-2 cm RL, 3-5cm DTW); uncert is compiler judgement; Width meas from GPS pts"
+1	1	361	NaN	NaN	55	5	6.5	1.5	3938785.75	463907.7813	46247.32995	Sinan_Akciz pm 114
+1	1	328	1	120	55	3	7	NaN	3944616.75	456834.25	37230.56495	"Arc C1 7.1-008 and 028, Arc C2 T. Ladinsky; V summed; width from GPS"
+1	1	45	2	NaN	55	5	27.5	2.5	3941574.75	461651.25	42660.42911	Sinan_Akciz pm 92
+1	1	72	2	25	55	NaN	70	NaN	3960152.25	444947.5625	17690.78417	July9_jtj stop 13; Questionable pt; unclear if H sums 2 strands; width from July9_jtj GPS 
+1	1	414	NaN	10	55	10	NaN	NaN	3948046	453200.125	32266.57479	Arc C3b; B. Olson
+1	1	35	NaN	20	55	10	NaN	NaN	3946009.25	455517.0313	35317.02129	"Arc C1; Jrp 09. H is minimum, additional strand to E not measured"
+1	99	241	NaN	2	57	10	0	5	3955451	446844.4688	22508.58217	Arc C2; T. Dawson
+1	1	73	1	15	58	10	NaN	NaN	3959989	445051.4688	17882.68302	Width from July9_jtj point stop 8
+1	1	334	2	15	60	7	10	NaN	3938635.5	464045.4688	46450.98997	USC_Points wpt 14. Uncert in quadr; width from GPS
+1	1	324	2	120	60	10	30	8	3944855.75	456571.5938	36878.54369	Arc C 7.1-015 -B. Swanson; width from GPS
+1	1	320	NaN	5	60	5	NaN	NaN	3945372.5	456094	36175.68106	R. Gold wpt 458
+1	9	428	NaN	NaN	61	NaN	NaN	NaN	3955408.25	448193.0625	23410.06066	K. Kendrick gps
+1	1	2	1	12	65	24	17	5	3967721.25	439513.625	8401.011568	Arc C1; Jrp 11 + RDG notes
+1	9	429	NaN	NaN	65	NaN	NaN	NaN	3954998	448822.7813	24129.52509	K. Kendrick gps
+1	8	170	2	2	66	15	3	2	3954943.5	448001.9063	23642.28256	Arc C2; C. DuRoss
+3	1	312	2	NaN	67	NaN	25	5	3947793.75	453469.5313	32633.1746	Arc C1; 12-5. H from SV_SL field
+1	1	358	NaN	NaN	67.5	7.5	NaN	NaN	3939907.75	463154.2813	44903.67429	Sinan_Akciz pm 40
+1	9	308	2	54	68	5	20	5	3953695	450258.3438	26050.82571	Arc C2; J. Hernandez + RDG notes. Width from GPS
+1	8	58	NaN	NaN	69	3	NaN	NaN	3955401	447594.875	23030.12843	Arc C2; J. Hernandez
+1	1	36	NaN	NaN	70	5	0	NaN	3945187.25	456289.4063	36443.30013	Arc C1; Jrp 07 + R. Gold notes
+1	8	59	NaN	NaN	70	NaN	NaN	NaN	3955944	447132.0938	22316.77819	Arc C2; J. Hernandez
+1	9	427	NaN	NaN	70	20	NaN	NaN	3955364	448238.375	23473.13507	K. Kendrick gps
+1	1	111	NaN	NaN	70	5	NaN	NaN	3942212	461081.9063	41806.30698	Sinan_Akciz pm 101
+1	1	115	NaN	NaN	70	10	NaN	NaN	3938731	463958.625	46322.02916	USC_Points wpt 7
+1	9	56	NaN	115	71	10	NaN	NaN	3955448	448138.0938	23344.16667	"Summing three strands. W - Arc C1; ES011 (20+/-2cm H, 0 V), Central - Arc C1; BO009 (12 cm, no uncert, no V), E - Arc C1; Nag36 (39+/-1 cm, no V), Compiler judement for uncert (10 cm). Width from GPS"
+1	1	50	NaN	290	72	17	2.5	2.5	3947444.5	453758.1563	33086.17767	Arc C1; pt 12-7 + RyanGold_07172019 -wpt 518 + Philibosian 0712 GPS. Summing 10cm + 25cm + 37cm. Uncert in quadr based on compiler judgement (10cm each). Width from GPS
+1	1	336	NaN	1.5	72.5	7.5	NaN	NaN	3938090.75	464733.625	47310.97583	USC_AlexHatem pt 9
+1	1	355	NaN	NaN	75	5	0	NaN	3941465.25	461815.5313	42850.10872	Sinan_Akciz pm 96
+1	1	114	NaN	14	75	15	NaN	NaN	3938654	464030.4688	46427.18158	USC_Points... pm 13; width from GPS
+1	1	337	NaN	NaN	77.5	27.5	12	NaN	3937760.25	465093.5938	47795.65682	Sinan_Akciz pm 144
+1	1	406	2	NaN	80	30	15	5	3949051.5	451990.25	30718.17292	Arc C3b; B. Olson
+1	8	169	NaN	15	81	15	0	NaN	3955078.5	447874.8438	23457.15496	"Arc C2; C. DuRoss. Based on reported sum of two meas: East fault - 49 +/- 5 RL, no V; West fault - 32 +/- 10 cm, azim 336, no V"
+1	1	37	2	107	81	10	27.5	7.5	3944880.75	456554.2813	36848.41193	Arc C1 7.1-016; width from GPS
+1	7	239	NaN	NaN	82	NaN	NaN	NaN	3956289.25	447844	22511.23749	Arc C2; J. Hernandez
+1	1	109	NaN	7	84	15	15	5	3946556	454843.5938	34464.95925	RyanGold_07172019 -wpt 511
+1	8	168	1	1	85	10	8	5	3955150.25	447795.7813	23351.31585	Arc C2; C. DuRoss
+1	1	47	NaN	NaN	85	15	NaN	NaN	3937722.75	465161.9375	47868.26025	UNR_pierce pm 92. Additional obs by USC_Hatem suggest less H (~26-50 cm RL)
+1	1	34	2	NaN	86	NaN	29	NaN	3949054.25	451969.4063	30702.54141	Arc C1; Wpt 110
+1	1	318	1	2	86	5	45	10	3945510	455920.6875	35958.945	R. Gold wpt 456
+1	1	315	NaN	1.4	88	15	NaN	NaN	3946455	454941.8438	34605.57717	R. Gold wpt 508
+1	1	435	NaN	NaN	90	10	0	0	3944687	456746.25	37120.17632	S. Akciz
+1	9	52	2	1.7	90	20	39	15	3953419.75	450617.9688	26493.09872	Arc C2; B. Swanson +  RDG notes
+1	1	330	NaN	NaN	91	10	10	5	3943608.5	459429.25	39673.50705	Arc C1 PB1023
+1	9	307	2	NaN	92	20	4	3	3953839.25	450114.625	25848.06577	Arc C2; B. Swanson
+1	1	333	2	NaN	93	8	20	NaN	3938797.75	463887.1875	46224.8017	USC_Points wpts 6 and 8 summed
+1	1	362	NaN	NaN	95	5	0	NaN	3938538	464191.0938	46619.36698	Sinan_Akciz pm 125
+1	1	42	NaN	NaN	96.5	5.5	NaN	NaN	3943970.25	458644	38890.93663	Arc C1; pburgess 
+1	1	26	NaN	2.8	97	8	34	5	3955242.25	447278.625	22947.83203	Arc C1 (B. Olson_cadoc)
+1	1	107	1	NaN	99	10	7	0	3949416.5	451552.3438	30156.84935	Arc C1
+1	1	106	NaN	NaN	100	10	5	5	3949884.5	450922.7813	29393.36935	C. DuRoss_observations -LTF3
+1	1	27	NaN	NaN	100	NaN	10	NaN	3954984.5	447322.125	23172.96151	Arc C1 (BO103)
+1	1	364	NaN	NaN	100	NaN	40	NaN	3938737.25	463960.25	46318.15075	UNR_pierce pm 104
+1	1	442	NaN	NaN	100	20	70	NaN	3942034.75	461264.375	42059.49704	UNR observations gps
+1	1	363	NaN	30	100	NaN	NaN	NaN	3938197.75	464643.1563	47170.70147	UNR_pierce pm 97
+1	1	430	NaN	NaN	105	5	NaN	NaN	3944935	456509.1563	36777.76235	S. Akciz
+1	1	332	NaN	NaN	105	10	NaN	NaN	3939263.5	463560.0625	45657.87515	RyanGold GPS pt 357
+1	1	339	NaN	17	110	15	0	NaN	3937632.25	465254.4688	47997.04381	Sinan_Akciz pmj 9
+1	1	18	2	50	110	NaN	40	NaN	3962050	444271.8438	15803.98293	Arc C1; Nag05. Width measured between Nag05 and Olson_Burro_Canyon pm 24
+1	8	164	NaN	NaN	110	3	NaN	NaN	3955818	447232.375	22477.6892	"Arc C2; J. Hernandez. reported meas: 83+/-2 cm, 27. +/-2 on second strand. Summed, uncert in quadr. "
+1	1	251	NaN	NaN	110	20	NaN	NaN	3949731	451119.6875	29637.5838	C. DuRoss wpt LTF1
+1	1	356	NaN	NaN	112	6	NaN	NaN	3940361.25	462820.8125	44341.99195	Sinan_Akciz pm 53
+1	9	310	2	5	114	20	12	5	3953220	450897.375	26825.88441	Arc C2; B. Swanson + RDG wpt 649
+1	1	357	NaN	NaN	115	5	NaN	NaN	3939937	463136.7188	44869.98452	Sinan_Akciz pm 41
+1	1	250	2	20	119	14	17	5	3950450.75	450378.875	28609.80418	Arc C2; E. Spangler
+1	1	46	2	NaN	120	10	20	NaN	3938830.75	463851.0938	46176.47688	USC_Points... wpt 3
+1	1	33	2	10	125	20	15	5	3949243	451719.2813	30397.16368	"Arc C1; Wpt 109. fz width reported as 0.5-1.5, widening to 4-10 m to south"
+1	9	55	NaN	30	125	NaN	NaN	NaN	3955365.25	448297.0625	23509.96455	Arc C1; BO005. Width from GPS pts
+1	9	304	NaN	NaN	130	NaN	NaN	NaN	3955089.25	448722.0938	23994.90029	Olson_Additional... pm 9. Assumed RL
+1	1	405	NaN	NaN	130	20	NaN	NaN	3950462.5	450367.5	28593.60568	Arc C3b; K. Thomas
+1	1	331	NaN	NaN	130	NaN	NaN	NaN	3942795	460558.4688	41023.2239	Arc C2 T. Dawson
+1	1	32	2	NaN	134	19	10	5	3950248	450546.375	28872.90512	Arc C2 E. Spangler_cadoc + C. DuRoss_obs_July. H value and uncert from range in C. DuRoss pt 27
+1	1	129	NaN	24	145	NaN	NaN	NaN	3960198.25	444918.7188	17637.01156	July9_jtj; Unclear whether H accounts for 24m wide graben (J. Jobe)
+1	1	276	NaN	160	147	5	85	6	3955151.75	447294.125	23027.01918	Arc C1; BO104 plus 15 cm on parallel strand to E (-BO102)
+1	1	19	2	NaN	150	60	34	2	3961142.5	444454.7188	16615.90519	H from Arc C1 and RDG notes; V from Arc C1 Ard-014 and Nag17
+1	1	275	NaN	20	150	NaN	NaN	NaN	3955336.25	447243.1875	22853.19938	Arc C3 -B. Olson
+1	9	53	2	NaN	153	25	15	8	3953661.5	450298.7188	26102.58533	Arc C2; B. Swanson (130 cm RL across 3 strands). RDG notes include additional strand to E with 23cm RL; revised sum is 153 cm RL
+1	1	31	1	25	154	25	23	10	3951856	449219.4063	26788.044	Arc C2 E. Spangler_cadoc + C. DuRoss_obs_July...
+1	1	273	2	NaN	176.5	NaN	57	NaN	3955470.25	447181.5313	22710.98386	"Arc C2; J. Hernandez and Hudnut_V6... wpt KWH-MEO-14. H is midpoint of two obs (173 and 180 cm RL, no uncert reported). No uncert assigned (compiler judgement)"
+1	1	266	NaN	NaN	180	30	65	5	3956486.75	446424.3438	21445.63378	Arc C1; Jrp 44. Meas does not include subparallel strand ~65 m to W
+1	1	30	NaN	60	192	50	65	20	3952518	448819.75	26024.23092	Arc C2 S. Bennett
+1	1	105	NaN	20	196	50	NaN	NaN	3952124.25	449052.625	26475.45351	"Arc C2 S. Bennett. Adjacent meas to S is 495 cm, which we excluded out of concerns for cumulative slip"
+1	1	290	2	NaN	200	NaN	85	NaN	3953703	448044.125	24618.27294	Olson_Lone_Butte pm 24
+1	1	101	2	140	210	NaN	325	NaN	3958692.5	445533.2813	19184.58947	H & V - D. McPhillips GPS; width - C. DuRoss notes; H uncert owing to road geom and fz orient
+1	1	274	2	40	212	60	80	10	3955441	447199.25	22744.69585	"Arc C2; C. DuRoss, summed with 16 cm RL meas to E on subparallel strand by B. Olson"
+1	1	230	2	NaN	214	25	53	7	3961455	444464.4063	16383.21586	Haddon_EKH_0711 pm 53. H and V values are midpoints and ranges based on assumption of min-pref-max conv in Haddon meas
+1	1	271	NaN	NaN	224	4	23	3	3955578.25	447089	22568.74698	Arc C2; J. Hernandez
+1	1	272	NaN	0.1	225	NaN	NaN	NaN	3955555.5	447116.7813	22604.06462	K. Hudnut V6... wpt KWH-MEO-13
+1	1	22	2	3	230	50	NaN	NaN	3956926.25	446177.0313	20950.27198	Arc C1;  Jrp 40
+1	1	269	NaN	NaN	230	22	NaN	NaN	3955809	446893.125	22266.00849	Arc C3 -B. Olson. Sum of two parallel strands. cm scale V reported but not summed here because of incomplete scarp facing dir
+1	1	300	NaN	NaN	230	NaN	NaN	NaN	3952473.5	448848.8438	26077.06777	Arc C2; S. Bennett. Possibility of multiple-event scarp not discussed
+1	1	294	2	NaN	233	NaN	100	NaN	3953560	448089.5313	24756.87118	Olson_Lone_Butte pm 32
+1	1	404	NaN	NaN	235	50	NaN	NaN	3957902	445647.5938	19862.85983	Arc C3b; K. Thomas; Meas on W of two subparallel traces; unclear from notes if E trace aCounted for
+1	1	246	2	20	247	93	NaN	NaN	3952177.25	449015.6563	26411.19627	"Combined Arc C2; S. Bennett (254 +/- 100 cm) and Scharer slip sites gps (310 +/- 30 cm). Possibility of multiple-event scarp not discussed. S. Bennett reported 0 +/- 50 cm V, unclear if transposed"
+1	1	270	NaN	0.2	250	NaN	0	NaN	3955710.25	446977.0625	22395.5835	K. Hudnut V6... wpt KWH-MEO-12
+1	1	244	NaN	5	250	100	NaN	NaN	3952592.75	448765.7188	25932.3942	Arc C2; S. Bennett. Possibility of multiple-event scarp not discussed
+1	1	283	2	NaN	260	30	42	NaN	3954241	447724.0938	24000.70355	Haddon_EKH_0711 pm 38. H is midpt and range
+1	1	232	2	NaN	260	50	55	15	3961065	444479.9375	16691.52509	Arc C1; Ard 013 + RDG notes
+1	1	299	NaN	NaN	263.5	NaN	NaN	NaN	3953314.75	448188.7188	25008.50128	Sum of meas reported by Olson_Lone_Butte pm 7-12
+1	1	142	NaN	NaN	265	30	0	NaN	3956752.75	446288.7813	21154.82754	Arc C1;  JRP43
+1	1	28	2	17	265	67	50	NaN	3953175.75	448289.9063	25179.90543	Arc C2 G. Seitz. Update: averaged Seitz with Scharer slip sites gps; H is midpt and range; width from gps
+1	1	21	2	105	270	54	25	10	3957391.25	445929.4688	20435.09216	C. DuRoss GPS B29R1 + R2; sqrtsumsq for uncert
+1	1	282	1	NaN	270	40	50	NaN	3954314.5	447678.2813	23914.95288	Haddon_EKH_0711 pm 39. H is midpt and range
+1	1	277	1	17	270	48	52.5	9	3954758.25	447396.75	23394.13781	"EKH_0712 pm 45 and 46. Sum of two parallel strands: W strand 85-90-100 cm RL, E strand 1.3-1.6-2.25 m RL, 5-10 cm V, 45 cm V (no uncert; 20% assigned). Sum using midpt; uncert based on range. Width from GPS"
+1	1	25	NaN	0.25	274	25	20	5	3955660.5	447014.5	22457.8647	Arc C2 (C. DuRoss)
+1	1	62	NaN	0.15	275	45	35	5	3954456	447574.9688	23740.21124	Mashup Hudnut V6 and EKH_0711 (pt 42); H is midpoint of preferred values; uncertainty defined here to encompass both measurements and EKH uncert
+1	1	280	1	NaN	282.5	17.5	5	NaN	3954367.5	447643.6563	23852.18014	Haddon_EKH_0711 pm 41
+1	1	103	NaN	NaN	289	100	NaN	NaN	3952642	448718.625	25864.28382	Arc C2;  S. Bennett. Possibility of multiple-event scarp not discussed
+1	1	281	NaN	NaN	295	NaN	NaN	NaN	3954326	447667.1563	23898.98414	Hudnut_V6... pt KWH-MEO-5
+1	1	67	NaN	20	300	25	0	NaN	3960813.5	444610.5938	16967.92924	Arc C1 + R. Gold notes; width measured using K. Scharer GPS points
+1	1	140	2	65	302.5	32.5	50	10	3957241.25	445972.125	20577.21934	"H is midpoint and range from C. DuRoss pt B29R3 (290 +/- 20cm) and ArC3b; K. Thomas (335 cm, no unc); width measured using RDG mapping. V from C. DuRoss"
+1	1	29	2	NaN	306	34	0	10	3952964	448426.6875	25429.91599	H is midpoint/range from Arc C2 S. Bennett (287 +/- 15 cm) Scharer slip sites gps (310 +/- 30  cm); V from S. Bennett
+1	1	74	2	75	308	30	344	20	3959102.75	445516.6563	18860.10646	H is midpoint of C. DuRoss field (A10-R1/R2) and D. McPhillips GPS transect; V from C. DuRoss
+1	1	78	2	8	312	60	12	10	3955773	446915.8438	22308.24076	Arc C2 (C. DuRoss) + notes/sketch. Supercedes measurements 40 m to NW (Hudnut V6) because of broader zone of deformation and summing treatment explicit in C. DuRoss notes
+1	1	422	NaN	3.8	312	30	NaN	NaN	3952813.25	448552.75	25626.4463	Scharer slip sites gps
+1	1	267	2	10	323	50	30	10	3955922	446794.2813	22115.94222	Arc C2; C. DuRoss. Additional meas by KK. Hudnut within uncert 
+1	1	63	NaN	0.15	325	NaN	0	NaN	3953920	447912.4375	24367.54567	Hudnut V6
+1	1	291	NaN	NaN	327.5	2.5	NaN	NaN	3953656.25	448056.3125	24661.87351	Olson_Lone_Butte pm 25
+1	1	104	2	60	330	100	50	NaN	3952266.25	448972.5	26315.29577	Arc C2 S. Bennett
+1	1	296	NaN	NaN	340	NaN	NaN	NaN	3953470.25	448101.0625	24832.95025	Arc C2; E. Spangler
+1	1	66	2	18	347	30	17.5	7.5	3960870	444585.3438	16908.54572	Arc C1; width measured using K. Scharer GPS points
+1	1	293	2	NaN	348	NaN	80	NaN	3953585	448079	24731.00343	Olson_Lone_Butte pm 27
+1	1	20	NaN	NaN	348.5	19.5	40	10	3959533.25	445306.375	18395.47396	Arc C1;  Nag18
+1	1	279	1	6	350	14	20	NaN	3954653.5	447455.1875	23511.96751	EKH_0712 pm 43 and 44; sum of two strands. WIdth from GPS
+1	1	297	NaN	NaN	355	15	NaN	NaN	3953397	448144.1875	24916.74544	Haddon_EKH_0711 pm 24
+1	1	425	2	5.4000001	357	100	NaN	NaN	3952100.75	449063.5	26500.54639	Scharer slip sites gps; no notes from Scharer or nearby point by S. Bennett on whether H includes prehistoric slip
+1	1	247	NaN	NaN	359	100	NaN	NaN	3952004.75	449136.625	26620.92744	Arc C2; E. Spangler.  Possibility of multiple-event scarp not discussed; adjacent point from Scharer slip sites gps (508 +/- 100 cm) excluded out of concerns for prehistoric slip
+1	1	24	1	10	359.5	37.5	40	10	3955949.75	446772.8438	22080.88532	Arc C3 (B. Olson_cadoc)
+1	1	268	NaN	0.15	360	NaN	NaN	NaN	3955899.25	446814.9375	22146.64731	Arc C2; K. Hudnut V6... wpt KWH-ME-8
+1	1	420	NaN	9	374	123	59	NaN	3952849.75	448521.3438	25578.37725	Scharer slip sites gps
+1	1	141	2	NaN	382.5	32.5	15	NaN	3956849.75	446223.4688	21038.56972	ArC3b; K. Thomas (remeasured from previous Hudnut V6 point)
+1	1	421	NaN	8.5	386	30	NaN	NaN	3952824.25	448542.4375	25611.46895	Scharer slip sites gps
+1	1	69	2	2	390	40	55	5	3960637.25	444717.25	17171.51786	Arc C1 + R. Gold notes
+1	1	423	2	9	400	135	NaN	NaN	3952462.25	448854.875	26089.64188	Scharer slip sites gps; no notes from Scharer or nearby point by S. Bennett on whether H includes prehistoric slip
+1	1	71	2	3.3	410	20	61	20	3960603.75	444739	17211.0518	"H offset revised from 400 to 410 cm based on asymmetric uncert; V, width from R. Gold notes"
+1	1	403	2	20	415	45	120	20	3959262.75	445422.8125	18677.27652	Arc C3b; K. Thomas; H is midpoint of 370-460 cm range in notes; reported H is 440 +/- 100 cm
+1	1	70	2	NaN	418.5	28.5	85	NaN	3960588.75	444741.4688	17224.17137	Arc C1
+1	1	68	2	18	430	50	40	NaN	3960765.75	444627.3125	17015.28403	Arc C1 + R. Gold notes; width measured using K. Scharer GPS points
+1	1	64	NaN	45	437	62	26	NaN	3956356.5	446488.9063	21586.95239	"Combination of pts: Hudnut V6, Arc C2, Arc C1-JRP46; H uncert quadr + compiler judgmt; V null on W strand"
+1	1	76	2	13.5	442	25	20	10	3956232.25	446570.8438	21734.69803	"Arc C1-Jrp 50; fz width from SfM. H doesn't include minor offset of N-oriented strand to NE; 395 cm orig meas combined with updated meas ArC3b; K. Thomas (403 cm pref, 425 cm max, no min) and summed with 42+/-5 cm on E strand (uncert in quad)"
+1	1	424	2	9	442	120	NaN	NaN	3952456.75	448858	26095.71137	Scharer slip sites gps; no notes from Scharer or nearby point by S. Bennett on whether H includes prehistoric slip
+1	1	23	2	80	447	24	20	20	3956032.75	446705.5625	21974.1472	"H is mean of Arc C2 (C. DuRoss) and Hudnu V6, and ArC3b; K. Thomas (meas by Dawson and Haddon). H uncert is 1sigma. V from Arc C2 (C. DuRoss)"
+1	1	123	NaN	NaN	475	25	NaN	NaN	3960609.5	444735	17204.18699	"Point added from R. Gold notes, waypoint 497. Low to moderate quality"
+1	1	77	NaN	26	495.5	30	0	10	3956278.5	446549.0313	21685.37245	"Combination of pts: Arc C1-JRP 47,48,49; H uncert is quadr + compiler judgmt; V is 0 + largest uncert"
+1	1	65	NaN	NaN	520	NaN	NaN	NaN	3955951	446775.0313	22081.28202	K. Hudnut V6 - no uncert in H reported. Point is in disagreement with Arc C3 (B. Olson_cadoc; 357 cm RL)
+3	3	154	NaN	NaN	NaN	NaN	0.5	1	3961424.25	442216.9688	14958.89696	Arc C2; WDZ-021. Point near southern termination of fault. V of 0.5 +/- 1 cm based on points WDZ-020 and 022 that indicate mm scale displacement
+3	2	396	2	31	NaN	NaN	2	NaN	3969846	435282.75	4050.341388	Arc C3b; T. Dawson
+3	2	402	2	NaN	NaN	NaN	3	NaN	3970368.75	439379.25	6289.562265	Arc C3b; K. Thomas
+3	2	395	NaN	NaN	NaN	NaN	4	NaN	3971051.25	434914.5	2891.346047	Arc C3b; T. Dawson
+3	1	390	NaN	NaN	NaN	NaN	4	1	3944365	457114.4063	37603.68751	Arc C2; T. Ladinsky
+3	2	394	2	NaN	NaN	NaN	5	NaN	3971069.5	434923.625	2883.174088	Arc C3b; T. Dawson
+3	6	233	2	3	NaN	NaN	5	5	3960268	445251.9375	17798.28543	Arc C1; MD107
+3	1	385	1	NaN	NaN	NaN	5	NaN	3944214.75	457251.7813	37807.01354	Arc C2; S. Bennett
+3	1	436	NaN	NaN	NaN	NaN	5	2	3943753.5	457458.6563	38293.13964	S. Akciz
+3	3	256	1	10	NaN	NaN	5.5	1	3960695.75	442751.0938	15860.09354	Arc C2; E. Spangler + RDG notes wpt 667
+3	2	397	2	36	NaN	NaN	6	NaN	3969721.25	435310.4063	4163.64855	Arc C3b; T. Dawson. Sum of two measurements; E strand reported by nic.barth.ucr of 0.04 assumed in m
+3	11	373	2	NaN	NaN	NaN	7	NaN	3938341.75	462427.875	45633.54848	Sinan_Akciz pm 160; V reported as up to 7 cm
+3	1	219	NaN	15	NaN	NaN	7.5	2.5	3966136.25	440371	10165.68844	Arc C1; MD013
+3	1	255	1	NaN	NaN	NaN	7.5	2.5	3948360.5	452950.9375	31865.58918	Arc C1; M. DeFrisco wpt 124
+3	1	286	1	NaN	NaN	NaN	9	NaN	3953975.25	447875.875	24301.73325	Olson_Lone_Butte pm 17
+3	4	156	2	NaN	NaN	NaN	10	1	3959612.25	440601.875	15304.27204	Arc C2; S. Bennett
+3	6	236	NaN	NaN	NaN	NaN	10	NaN	3959617.75	445335.8438	18349.80899	Arc C1; Nag20 V assumed DTW 
+3	1	253	1	4	NaN	NaN	10	5	3948809.75	452440.375	31193.04551	Arc C1; M. DeFrisco wpt 116
+3	1	407	2	NaN	NaN	NaN	10	NaN	3948478.25	452616.6875	31560.06994	Arc C3b; B. Swanson
+3	1	439	2	NaN	NaN	NaN	10	2	3943124	460227.7813	40558.59246	S. Akciz
+3	4	157	2	NaN	NaN	NaN	12	1	3959258.75	440674	15621.11098	Arc C2; S. Bennett
+3	1	410	2	NaN	NaN	NaN	12	NaN	3948382	452702.875	31689.35878	Arc C3b; M. DeFrisco
+3	3	152	1	190	NaN	NaN	13	NaN	3961859.75	442149.2188	14582.05042	Arc C1; WDZ-017. Width is total zone of cracking from GPS
+3	1	323	2	NaN	NaN	NaN	14	11	3944983	456474.25	36718.60145	Arc C1; B. Swanson
+3	1	367	NaN	NaN	NaN	NaN	14	NaN	3937172.75	465814.6875	48709.48867	Sinan_Akciz pm 21
+3	1	184	2	200	NaN	NaN	14.5	2.5	3963058.25	444101.9688	14923.43626	Arc C1; MD017 & Arc C2; C. DuRoss. V is sum of 12 cm (MD017) and 2.5 +/- 2.5 cm (< 5 cm reported) (C. DuRoss). Total width based on GPS.
+3	3	153	1	160	NaN	NaN	15	NaN	3961696	442196.6563	14737.96257	Arc C1; WDZ-018. Width is total zone of cracking from GPS
+3	5	257	1	NaN	NaN	NaN	15	3	3959161.75	444039	17863.09817	Arc C2; B. Swanson
+3	99	237	NaN	NaN	NaN	NaN	15	1	3959171.75	444918.6875	18422.12409	Arc C2; S. Bennett
+3	11	345	NaN	NaN	NaN	NaN	15	NaN	3939401.25	461655.1563	44325.42691	Arc C1; E. Spangler
+1	1	3	1	145	NaN	NaN	17	10	3967536.5	439694.1875	8658.630734	"Combined from two strands: W strand Arc C1; Jrp 10 (47+/-10cm DTE, no H meas), E strand Arc C1; Nag001 (30 cm DTW, no uncert, no H meas).  Width meas from GPS pts"
+3	1	186	2	NaN	NaN	NaN	17	3	3964598.5	443080.3125	13087.21746	Arc C2; G. Seitz
+3	5	259	1	440	NaN	NaN	17	11	3958704.75	444222.4375	18330.75401	"Arc C2; S. Bennett & E. Spangler. Diff of two fault strands: W - 42 +/- 5 cm DTE, E - 25 +/- 10 cm  DTW, uncert in quadr. Width from GPS"
+3	1	183	2	20	NaN	NaN	17.5	3	3962890	444185.4063	15105.90494	"Diff of two meas across graben: East fault 25-30 cm DTW, west fault 10 cm DTE (no uncert; 20% assigned); uncert in quadr"
+3	1	122	2	NaN	NaN	NaN	17.5	2.5	3960915	444564.5313	16860.67702	C. DuRoss. Point from RDG GPS
+3	1	445	2	NaN	NaN	NaN	20	3	3938992.5	463734.7813	45977.73781	S. Akciz
+3	2	202	2	NaN	NaN	NaN	20.5	4.5	3972952	436605.1563	2526.623474	"Arc C1; ES 001 (20-25 cm) + July7_revised_jtj -stop 21 (20 cm, no uncert; 20% assigned). Value is midpt and range of 2 obs"
+3	2	143	2	NaN	NaN	NaN	21.5	0.5	3973640.75	435591.1875	1346.63144	July7_revised_jtj -stop 16 (J. Jobe)
+3	2	198	2	NaN	NaN	NaN	23	3	3973549.5	436244.9375	1837.628048	Arc C1; mD008
+3	2	97	2	9	NaN	NaN	23.5	6.6999998	3973738.25	435580.1563	1265.006421	"V is average of three measurements: July7_revised_jtj -stop15 (23-24 cm), Arc C1; MD10 (22 cm), and Arc C1; MD009 (25 cm). Uncert for MD10 and MD009 est at 20%. Total uncert in quadr"
+3	1	411	2	NaN	NaN	NaN	24	2	3948281.5	452807.0313	31833.28941	Arc C3b; M. DeFrisco
+3	7	264	1	NaN	NaN	NaN	25	NaN	3958681.75	445755.6563	19336.03923	Arc C1; A10R6 + C. DuRoss notes
+3	1	285	2	NaN	NaN	NaN	25	NaN	3953995.25	447862.625	24277.85724	Olson_Lone_Butte pm 16
+3	1	1	1	NaN	NaN	NaN	26	5	3967879.5	439401.4063	8207.700111	Arc C1; Jrp 12
+3	5	258	NaN	NaN	NaN	NaN	29	3	3958895.25	444006.2188	18045.78788	Arc C2; B. Swanson
+3	3	150	1	NaN	NaN	NaN	30	NaN	3962130.5	441844.5313	14178.66725	Arc C1; WDZ-010. Notes up to 30 cm in WDZ-010 but 30 cm assigned based on adj sites
+3	1	249	1	40	NaN	NaN	30	NaN	3951100.75	449733.1563	27696.64442	Arc C2; E. Spangler. Possibly a minimum value
+3	1	412	1	NaN	NaN	NaN	30	5	3948265	453060.9688	32009.50951	Arc C3b; F. Valencia
+3	1	437	2	NaN	NaN	NaN	32	3	3943295.5	459955.25	40251.77295	S. Akciz
+3	1	313	2	NaN	NaN	NaN	33	NaN	3947591.75	453701.625	32937.04099	Arc C1; 12-6 amorelan
+3	3	149	NaN	4	NaN	NaN	34	5	3962226	441844.625	14105.7172	Arc C1; WDZ-011
+3	2	215	2	NaN	NaN	NaN	35	15	3969757	438932.5625	6469.816945	C. DuRoss wpt 453 (20-50 cm DTW)
+3	1	228	NaN	NaN	NaN	NaN	35	5	3963805	443636.5	14052.43697	Arc C2; C. DuRoss
+3	6	235	2	6	NaN	NaN	35	10	3959861.25	445284.6563	18130.45264	"July9_jtj -stop 4, Haddon_EKH_0711 -pm 66 (J. Jobe)"
+3	1	288	2	NaN	NaN	NaN	37	NaN	3953815.5	447970.5313	24484.85603	Olson_Lone_Butte pm 20
+3	1	325	2	115	NaN	NaN	38	3	3944817.75	456594.4063	36922.33288	Arc C2; J. Hernandez; width from GPS
+3	1	316	2	NaN	NaN	NaN	40	NaN	3946310.75	455055.625	34789.16418	B. Philibosian wpt 240
+3	1	326	2	NaN	NaN	NaN	40	4	3944795	456621.4688	36957.27404	Arc C2; T. Ladinsky
+3	1	100	2	410	NaN	NaN	41	10	3963934	443622.2188	13944.63484	Arc C2; C. DuRoss; width from GPS pts
+3	1	360	NaN	NaN	NaN	NaN	42	5	3939827.5	463206.2188	44998.67769	Sinan_Akciz pm 36
+3	5	262	2	NaN	NaN	NaN	45	2	3958024	444402.5313	18967.53594	Arc C2; S. Bennett
+3	1	287	2	NaN	NaN	NaN	45	NaN	3953884.5	447934.0313	24408.47934	Olson_Lone_Butte pm 19
+3	1	340	2	50	NaN	NaN	45	NaN	3937528.5	465393.25	48165.86476	USC_AlexHatem pt 19
+3	9	309	NaN	NaN	NaN	NaN	48	NaN	3953410	450635.9688	26512.19699	Arc C2; J. Hernandez
+3	1	243	2	10	NaN	NaN	50	15	3952734	448631.8438	25738.0993	Arc C2; G. Seitz
+3	1	359	NaN	NaN	NaN	NaN	50	15	3939896.25	463161.5938	44917.33874	Sinan_Akciz pm 38
+3	1	242	2	NaN	NaN	NaN	51	NaN	3953039.75	448367.8438	25334.1118	Arc C2; S. Bennett
+3	2	213	2	NaN	NaN	NaN	53	5	3969544.25	438908.4375	6616.93767	C. DuRoss wpt 447
+3	1	229	NaN	NaN	NaN	NaN	55	NaN	3961723.5	444397.625	16134.86212	Olson_Burro_Canyon pm 28
+3	1	354	2	NaN	NaN	NaN	55	NaN	3942012.25	461265.4063	42077.21909	Sinan_Akciz pm 97
+3	1	443	2	NaN	NaN	NaN	60	5	3941275	461965.3438	43092.01016	UNR observations gps
+3	1	265	2	10	NaN	NaN	63	15	3957968.5	445685.3125	19836.35258	Arc C2; G. Seitz
+3	6	137	2	5	NaN	NaN	64	5	3960044.5	445213.9375	17944.91978	Arc C1;  MD105
+3	3	146	2	NaN	NaN	NaN	65	NaN	3962653.75	441768.7813	13729.76397	Olson_Additional_Mapping_Points -pm 3
+3	1	444	2	NaN	NaN	NaN	65	5	3939777	463219.25	45045.62062	UNR observations gps
+3	1	278	NaN	NaN	NaN	NaN	72	NaN	3955106.25	447293.9063	23061.74077	Arc C1; BO104
+3	1	284	2	NaN	NaN	NaN	80	NaN	3954038.5	447843.3125	24232.35011	Olson_Lone_Butte pm 15
+3	1	417	2	NaN	NaN	NaN	95	10	3958559.5	445527.25	19282.39904	K. Kendrick gps
+3	1	298	NaN	NaN	NaN	NaN	100	NaN	3953348.5	448163	24966.02902	Olson_Lone_Butte pm 31
+3	1	292	2	NaN	NaN	NaN	108	NaN	3953600.25	448081.75	24721.22935	Olson_Lone_Butte pm 26
+3	1	295	NaN	NaN	NaN	NaN	113	NaN	3953521	448092.875	24788.95301	Olson_Lone_Butte pm 28
+3	1	231	2	NaN	NaN	NaN	114	NaN	3961323.5	444413.125	16450.65817	"Olson_Burro_Canyon, V converted from meas reported in feet"
+3	1	99	2	NaN	NaN	NaN	140	25	3962469.5	444248.5625	15468.22024	Arc C1; MD013 and Haddon_EKH_0711 -pm 55. 
+3	1	182	2	NaN	NaN	NaN	182.5	42.5	3962648.25	444240.9375	15326.53399	Broader of two meas: 150-200 cm (Arc C1; MD014) and 140-225 cm (EKH_0712).
+1	1	138	2	60	NaN	NaN	374	20	3958956.75	445533.9688	18982.97355	"July8_revised_jtj, C. DuRoss pt. A10R3"
+3	2	399	2	NaN	NaN	NaN	NaN	4	3968593.75	435277.6563	5004.932115	Arc C3b; T. Dawson
+3	2	400	2	NaN	NaN	NaN	NaN	5	3968559.75	435273.1563	5028.028048	Arc C3b; T. Dawson
+1	1	124	NaN	25	NaN	NaN	NaN	NaN	3960388	444820.5938	17428.61043	EKH_0712 (E. Haddon)
+1	1	125	NaN	14	NaN	NaN	NaN	NaN	3960354.25	444837.1875	17465.23043	Arc C1
+1	1	126	NaN	5	NaN	NaN	NaN	NaN	3960341.75	444842.9688	17478.55664	EKH_0712
+1	1	127	NaN	33	NaN	NaN	NaN	NaN	3960253	444910.625	17590.02836	Arc C1
+1	1	128	NaN	14	NaN	NaN	NaN	NaN	3960119.25	444973.5938	17732.84411	Width from July9_jtj - combined (midpoint) from two points 
+1	1	130	1	12	NaN	NaN	NaN	NaN	3959922.5	445069.75	17945.21293	July9_jtj
+1	1	131	1	30	NaN	NaN	NaN	NaN	3959802.75	445130.9688	18076.33786	Haddon_EKH_0711
+1	1	132	1	30	NaN	NaN	NaN	NaN	3959723.75	445175.125	18165.15927	July9_jtj
+1	1	133	NaN	10	NaN	NaN	NaN	NaN	3959691	445201.875	18207.47878	Philibosian_ChinaLakeEQs_Waypoints_BP
+1	1	134	2	20	NaN	NaN	NaN	NaN	3959603.5	445242.125	18300.25658	July9_jtj
+1	1	139	NaN	245	NaN	NaN	NaN	NaN	3958308	445583.1875	19510.86933	Olson_Burro_Canyon GPS
+1	1	248	NaN	140	NaN	NaN	NaN	NaN	3951280.75	449643.0625	27500.9139	Width estimated using Arc C2; C. DuRoss and E. Spangler GPS wpts

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>DuRoss, C.B., Gold R., Dawson, T., Scharer, K.., Kendrick, K., Akciz, S., Angster, S., Bachhuber, J., Bacon, S., Bennett, S., Blair, L., Brooks, B., Bullard, T., Burgess, W.P., Chupik, C., DeFrisco, M., Delano, J., Dolan, J., Frost, E., Graehl, N., Haddon, E., Hatem, A., Hernandez, J., Hitchcock, C., Hudnut, K., Jobe, J.T., Koehler, R., Kozaci, O., Ladinsky, T., Madugo, C., McPhillips, D., Milliner, C., Morelan, A., Olson, B., Patton, J., Philibosian, B., Pickering, A.J., Pierce, I., Ponti, D., Seitz, G., Spangler, E., Swanson, B., Thomas, T., Treiman, J., Valencia, F., Williams, A, and Zinke, R.</origin>
+        <pubdate>20200609</pubdate>
+        <title>Surface Displacement Observations of the 2019 Ridgecrest, California Earthquake Sequence</title>
+        <geoform>Tabular</geoform>
+        <pubinfo>
+          <pubplace>Golden, CO</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P986ILE2</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Christopher B. DuRoss</origin>
+            <origin>Ryan D. Gold</origin>
+            <origin>Timothy E. Dawson</origin>
+            <origin>Katherine M. Scharer</origin>
+            <origin>Katherine J. Kendrick</origin>
+            <origin>Sinan O. Akciz</origin>
+            <origin>Stephen J. Angster</origin>
+            <origin>Jeffrey Bachhuber</origin>
+            <origin>Steven Bacon</origin>
+            <origin>Scott E. K. Bennett</origin>
+            <origin>Luke Blair</origin>
+            <origin>Benjamin A. Brooks</origin>
+            <origin>Thomas Bullard</origin>
+            <origin>W. Paul Burgess</origin>
+            <origin>Colin Chupik</origin>
+            <origin>Michael DeFrisco</origin>
+            <origin>Jaime Delano</origin>
+            <origin>James F. Dolan</origin>
+            <origin>Erik Frost</origin>
+            <origin>Nick Graehl</origin>
+            <origin>Elizabeth K. Haddon</origin>
+            <origin>Alexandra E. Hatem</origin>
+            <origin>Janis L. Hernandez</origin>
+            <origin>Christopher Hitchcock</origin>
+            <origin>Kenneth Hudnut</origin>
+            <origin>Jessica Thompson Jobe</origin>
+            <origin>Richard Koehler</origin>
+            <origin>Ozgur Kozaci</origin>
+            <origin>Tyler Ladinsky</origin>
+            <origin>Christopher Madugo</origin>
+            <origin>Devin S. McPhillips</origin>
+            <origin>Christopher Milliner</origin>
+            <origin>Alexander Morelan</origin>
+            <origin>Brian Olson</origin>
+            <origin>Jason Patton</origin>
+            <origin>Belle Philibosian</origin>
+            <origin>Alexandra J. Pickering</origin>
+            <origin>Ian Pierce</origin>
+            <origin>Daniel J. Ponti</origin>
+            <origin>Gordon Seitz</origin>
+            <origin>Eleanor Spangler</origin>
+            <origin>Brian Swanson</origin>
+            <origin>Kate Thomas</origin>
+            <origin>Jerome Treiman</origin>
+            <origin>Francesca Valencia</origin>
+            <origin>Alana Williams</origin>
+            <origin>Robert Zinke</origin>
+            <pubdate>20200623</pubdate>
+            <title>Surface Displacement Distributions for the July 2019 Ridgecrest, California, Earthquake Ruptures</title>
+            <geoform>publication</geoform>
+            <pubinfo>
+              <pubplace>n/a</pubplace>
+              <publish>Seismological Society of America (SSA)</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.1785/0120200058</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Surface rupture associated with the 2019 Ridgecrest, California earthquake sequence includes the dominantly left-lateral and northeast-striking M6.4 rupture and dominantly right-lateral and northwest-striking M7.1 rupture. This data release includes surface-displacement observations of these ruptures made by teams of federal, state, academic, and private sector geologists between July and November 2019. These displacement observations describe laterally and/or vertically displaced cultural and geomorphic features. Displacement data included in this release are a subset of observations included in a Seismological Society of America Data Mine article (Ponti et al., in review). Our intent is to compile a complete set of field measurements for the M6.4 and M7.1 ruptures for the purpose of evaluating patterns of surface displacement along fault strike. In evaluating the original data, we synthesized duplicate and repeated measurements at a site, excluded some measurements with insufficient documentation or based on compiler judgement, and combined some measurements across zones of complex faulting (e.g., including summed measurements for subparallel fault strands). Additional discussion of these data is included in a companion journal article (DuRoss et al., in press, Bulletin of the Seismological Society of America).</abstract>
+      <purpose>To provide field observations of surface displacement measured following the 2019 Ridgecrest, California earthquake sequence.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20190704</begdate>
+          <enddate>20191130</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Data acquisition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-117.8641</westbc>
+        <eastbc>-117.4081</eastbc>
+        <northbc>35.9310</northbc>
+        <southbc>35.4849</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>Earthquake</themekey>
+        <themekey>Fault</themekey>
+        <themekey>Displacement</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:5e7e79afe4b01d50927718a1</themekey>
+      </theme>
+      <place>
+        <placekt>GNIS</placekt>
+        <placekey>Ridgecrest</placekey>
+        <placekey>China Lake</placekey>
+        <placekey>Salt Wells Valley</placekey>
+        <placekey>California</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Christopher B. DuRoss</cntper>
+          <cntorg>ROCKY MOUNTAIN REGION: GEOLOGIC HAZARDS SC</cntorg>
+        </cntperp>
+        <cntpos>Research Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Mail Stop MS 966, 1711 Illinois St</address>
+          <city>Golden</city>
+          <state>CO</state>
+          <postal>80401</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>303-273-8544</cntvoice>
+        <cntemail>cduross@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Field-based measurements of displacement were collected using various methods including tape measurements and high-precision GPS surveys. These data were evaluated and compiled into displacement datasets for the M6.4 and M7.1 Ridgecrest earthquake ruptures.</procdesc>
+        <procdate>2020</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Location coordinates provided in WGS84 UTM zone 11</indspref>
+    <direct>Point</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>11</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-117.0</longcm>
+              <latprjo>0.0</latprjo>
+              <feast>500000.0</feast>
+              <fnorth>0.0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>1.0</absres>
+            <ordres>1.0</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Data tables (M6.4_Curated_disp_v1.txt and M7.1_Curated_disp_v5.txt)</enttypl>
+        <enttypd>Surface-displacement measurements</enttypd>
+        <enttypds>Producer conceived</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Slip_Sense</attrlabl>
+        <attrdef>Fault slip sense. 1 = right-lateral, 2 = left-lateral, 3 = vertical</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>3</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Strand</attrlabl>
+        <attrdef>Fault strand number. For the M6.4 rupture, strand numbers range from 21 (principal rupture strand) to 26. For the M7.1 rupture, strand numbers range from 1 (principal rupture strand) to 11. 99 indicates strand not assigned.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>99</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pt_Identif</attrlabl>
+        <attrdef>Point identifier. Unique point identification assigned.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>451</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Scarp_Face_Dir</attrlabl>
+        <attrdef>Scarp facing direction. 1 = east, 2 = west. NaN indicates null database entry.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>2</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Local_Width_m</attrlabl>
+        <attrdef>Local fault zone width measured in meters. NaN indicates null database entry.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>500</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_Offset_cm</attrlabl>
+        <attrdef>Horizontal fault displacement measured in centimeters. NaN indicates null database entry.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>520</rdommax>
+            <attrunit>centimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_Uncert_cm</attrlabl>
+        <attrdef>Uncertainty in horizontal displacement (centimeters). NaN indicates null database entry.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>135</rdommax>
+            <attrunit>centimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>V_Separ_cm</attrlabl>
+        <attrdef>Vertical fault displacement measured in centimeters. NaN indicates null database entry.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>374</rdommax>
+            <attrunit>centimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>V_Uncert_cm</attrlabl>
+        <attrdef>Uncertainty in vertical displacement (centimeters). NaN indicates null database entry.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>42.5</rdommax>
+            <attrunit>centimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Northing</attrlabl>
+        <attrdef>North-measured geographic coordinate using WGS84 UTM zone 11 (meters).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3935326</rdommin>
+            <rdommax>3976696.75</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Easting</attrlabl>
+        <attrdef>East-measured geographic coordinate using WGS84 UTM zone 11 (meters).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>434914.5</rdommin>
+            <rdommax>466410.3125</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Compiler_Notes</attrlabl>
+        <attrdef>Notes on field observations (point names correspond to Ponti et al., in review; Seismological Research Letters Data Mine), points combined, and displacement uncertainties. H – horizontal, LL – left-lateral, RL – right-lateral, and V – vertical displacement.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Rupture_Trace_v1.kml</enttypl>
+        <enttypd>Geographic data in Keyhole Markup Language</enttypd>
+        <enttypds>Producer conceived</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ObjectID</attrlabl>
+        <attrdef>Unique numerical identifier.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>203</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Source</attrlabl>
+        <attrdef>Source of fault trace mapping information, from either Pontietal (Ponti et al., in review, SRL) or PixelTracking (WorldView imagery optical pixel tracking by Barnhart et al., 2019, GRL).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Slip Sense</attrlabl>
+        <attrdef>Sense of slip, where 1=right-lateral, 2=left-lateral, 3=normal, and 4=undifferentiated.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>4</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Strand</attrlabl>
+        <attrdef>Strand identifying number.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>99</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Confidence</attrlabl>
+        <attrdef>Mapping confidence, where 1=confident, 2=approximate, and 3=queried.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>3</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Christopher B Duross</cntper>
+          <cntorg>ROCKY MOUNTAIN REGION: GEOLOGIC HAZARDS SC</cntorg>
+        </cntperp>
+        <cntpos>Research Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Mail Stop MS 966, 1711 Illinois St</address>
+          <city>Golden</city>
+          <state>CO</state>
+          <postal>80401</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>303-273-8544</cntvoice>
+        <cntemail>cduross@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>NA</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20200818</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Christopher B. DuRoss</cntper>
+          <cntorg>ROCKY MOUNTAIN REGION: GEOLOGIC HAZARDS SC</cntorg>
+        </cntperp>
+        <cntpos>Research Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Mail Stop MS 966, 1711 Illinois St</address>
+          <city>Golden</city>
+          <state>CO</state>
+          <postal>80401</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>303-273-8544</cntvoice>
+        <cntemail>cduross@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

@@ -7,9 +7,9 @@ close all
 clear
 
 %load international boundaries
-load countries_map.mat
+load ../countries_map.mat
 %load GPS data in ITRF08 (from Kreemer et al., 2014)
-load GPS_ref.mat
+load ../GPS_ref.mat
 
 inp_transform=input('Do you want to transform to another reference frame? (yes=1,no=0) \n');
 %Ind/ITRF08 is lat=51N,lon=12E,degmyr=0.5
@@ -37,14 +37,31 @@ else
     axis tight, axis equal
 end
 
+%% zoomed in plots
+XL = [70 110];
+YL = [-10 50];
+scf = 20;
 
-%%
-lonp = 36;
-latp = 54;
-degmyr = -0.6;
+figure(2),clf
+subplot(121)
+plot(coastlines(:,1),coastlines(:,2),'k'),hold on
+quiver(lon,lat,uE./scf,uN./scf,0,'LineWidth',1)
+% only for velocity scale bar
+quiver(75,0,50./scf,0./scf,0,'LineWidth',1)
+axis tight equal
+set(gca,'Fontsize',15)
+xlabel('lat'),ylabel('lon')
+xlim(XL)
+ylim(YL)
+title('ITRF vel field')
 
-lon = 92;
-lat = 20;
-[uEn,uNn]=pole_velocity(lat,lon,latp,lonp,degmyr);
-
-sqrt(uNn^2 + uEn^2)
+subplot(122)
+plot(coastlines(:,1),coastlines(:,2),'k'),hold on
+quiver(lon,lat,uEn./scf,uNn./scf,0,'LineWidth',1)
+% only for velocity scale bar
+quiver(75,0,50./scf,0./scf,0,'LineWidth',1)
+axis tight equal
+set(gca,'Fontsize',15)
+xlim(XL)
+ylim(YL)
+title('predicted motion for Eurasia Euler pole')

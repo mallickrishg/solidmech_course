@@ -1,7 +1,7 @@
 clear
 
-load eulercalc_matlab/countries_map.mat
-load eulercalc_matlab/GPS_ref.mat
+load countries_map.mat
+load GPS_ref.mat
 %% extract data in box
 box_lon = [74 95];
 box_lat = [25 38];

@@ -1,0 +1,83 @@
+Slip_Sense	Strand	Pt_Identif	Scarp_Face_Dir	Local_Width_m	H_Offset_cm	H_Uncert_cm	V_Separ_cm	V_Uncert_cm	Northing	Easting	Distance_m	Compiler_Notes
+2	25	63	NaN	NaN	0	NaN	0	NaN	3938827	444601.7813	28.74603694	SW rupture based on NW cross fault
+2	25	58	NaN	NaN	3.5	NaN	NaN	NaN	3940137.25	445825.1875	1820.810915	"Arc C1; J. Treiman; assumed separation means LL; summed disp on two parallel strands. W: 1.5 cm, E: 1.5-2.5 cm LL"
+1	21	53	2	NaN	9	NaN	6.5	NaN	3939819.75	446469.1875	2011.033401	Olson_Spanger. H assumed RL based on adj points
+2	25	59	NaN	NaN	1	NaN	NaN	NaN	3940520.5	446111.9375	2297.771227	Arc C1; P. Holland
+2	21	52	NaN	NaN	7.5	2.5	NaN	NaN	3940124.5	446798.1875	2457.250269	Arc C1; J. Treiman
+2	21	51	NaN	NaN	3	NaN	NaN	NaN	3940214	446870.5313	2572.317186	Arc C1; J. Treiman
+2	21	50	NaN	NaN	2.5	0.5	NaN	NaN	3940239.25	446920.1563	2624.057586	Arc C1; J. Treiman
+2	21	49	NaN	NaN	9	NaN	NaN	NaN	3940263	446947.8438	2660.352487	Arc C1; J. Treiman
+2	26	54	NaN	NaN	4	NaN	NaN	NaN	3940524.5	446789.0625	2750.382049	Arc C1; J. Treiman
+2	25	60	NaN	NaN	1	NaN	NaN	NaN	3941008.25	446606.3125	2990.782933	Arc C1; J. Treiman
+2	21	48	1	NaN	37	NaN	3	NaN	3940554	447191.9688	3039.995949	Arc C1; J. Treiman
+2	26	55	NaN	1	4	NaN	NaN	NaN	3940818.5	447114.0313	3185.923206	Arc C1; J. Treiman
+2	25	61	NaN	NaN	1.5	0.5	NaN	NaN	3941161	446746.4063	3197.97194	Arc C1; J. Treiman
+2	26	56	NaN	NaN	4.5	0.5	NaN	NaN	3940997.75	447339.125	3469.53343	Arc C1; J. Treiman
+2	21	47	NaN	NaN	10	NaN	NaN	NaN	3941094.75	447577.375	3700.140573	Arc C1; J. Treiman; reported as 10 cm or less
+2	26	57	NaN	NaN	2	NaN	NaN	NaN	3941173.25	447495.5625	3704.598403	Arc C1; J. Treiman
+2	21	46	NaN	NaN	15	5	NaN	NaN	3941189.25	447657.75	3824.234965	Arc C1; J. Treiman
+2	21	45	1	NaN	9	NaN	6	NaN	3941336.75	447734.0625	3985.259394	Arc C1; J. Treiman; inferred LL
+2	21	44	NaN	NaN	60	10	NaN	NaN	3941459.5	447855.5938	4157.665246	UNR obs wpt 235-236
+2	25	62	NaN	NaN	1.5	0.5	NaN	NaN	3942064	447626.4688	4457.636576	Arc C1; J. Treiman
+2	21	43	NaN	30	60	10	NaN	NaN	3941707	448067.8438	4483.654009	UNR obs wpt 228-229; width from gps
+2	21	42	2	8.5	85	12	6.5	NaN	3941758.25	448097.7188	4541.877168	PGE_Points sum of wpt 31 (57 cm +/- 20% assigned) and wpt 32 (28 +/- 4 cm); uncert in quadr. V from west strand.
+3	21	41	1	NaN	30	NaN	NaN	NaN	3941914.75	448256.6563	4764.373317	Arc C1; J. Treiman
+3	21	40	1	NaN	30	NaN	NaN	NaN	3941980.5	448322.4688	4857.299993	UNR obs wpt 238; east facing dir inferred from adj point
+2	21	39	NaN	NaN	37.5	2.5	NaN	NaN	3942396.75	448610.0313	5359.510262	PGE_points; sum of two meas: 35 cm and 2.5 cm (reported in inches) 
+2	21	38	NaN	NaN	78	10	NaN	NaN	3942728.25	448944.6875	5829.465602	UNR obs wpt 816-817
+2	21	37	NaN	NaN	100	NaN	NaN	NaN	3942742.25	448959.25	5849.701841	UNR obs wpt 207; reported as <1 m
+2	21	36	NaN	2	67	10	NaN	NaN	3942740.5	448965.0313	5852.193154	UNR obs wpt 819-820
+2	21	35	NaN	NaN	76	10	NaN	NaN	3942746.5	448966.5938	5857.78572	UNR obs wpt 205-206
+2	21	34	NaN	3	87	13	NaN	NaN	3942758.25	448982.5313	5877.011829	UNR obs wpt 822; midpoint and range of 2 obs reported
+2	21	33	NaN	NaN	110	25	NaN	NaN	3942779.5	448973.9688	5887.285925	UNR obs wpts 824-826
+2	21	32	NaN	NaN	105	25	NaN	NaN	3942818	449056.8125	5971.148294	"UNR obs wpt 829-830, uncert reported as +40/-10 cm"
+2	21	31	NaN	2	161	15	NaN	NaN	3942874.25	449152.8125	6076.956647	"UNR obs wpt 832, uncert reported as +0/-30 cm"
+2	21	30	NaN	NaN	120	10	NaN	NaN	3942886.5	449192	6112.115718	UNR obs wpt 835
+2	21	29	NaN	NaN	37	15	NaN	NaN	3943191.75	449628.75	6630.374137	UNR obs wpt 196-198
+2	21	28	1	180	45	10	5	NaN	3943452	449999.6875	7071.140266	UNR obs wpts 188-190; width from gps
+2	21	27	NaN	NaN	16.5	NaN	NaN	NaN	3943657.5	450288.3125	7416.52335	Arc C3a; J. Hernandez
+3	21	26	1	45	NaN	NaN	4	1	3943840.25	450726.5313	7844.14071	UNR obs 
+2	21	25	2	133	15	NaN	6	NaN	3944838.25	451376.0313	9021.712095	Arc C3a; B. Swanson; width from gps
+2	21	24	1	10	44	2	5	5	3944884	451530.3125	9158.313246	Arc C1; B. Olson
+2	21	23	NaN	15	60	10	NaN	NaN	3945142.75	451698.3438	9463.276799	K. Scharer slip sites
+2	21	22	NaN	11	164	65	NaN	NaN	3945190	451762.0313	9540.869849	K. Scharer slip sites; STOB-08
+2	21	21	NaN	7.6	148	60	NaN	NaN	3945252.75	451828.9375	9632.249447	"Based on K. Scharer slip sites 148 +/- 60, which overlaps within uncert with B. Olson STOB-09 80 +/- 20cm; width from Scharer"
+2	21	20	NaN	5	49	NaN	NaN	NaN	3945263	451841.6875	9648.473157	Arc C1; B. Olson; STOB-10
+3	24	71	2	NaN	NaN	NaN	3	1	3948136.25	450512.0625	10914.10709	DRI S. Bacon
+2	21	19	NaN	4	16	NaN	NaN	NaN	3946525.75	452864.0313	11271.55365	Arc C1; B. Olson; STOB-30
+2	21	18	NaN	NaN	15	10	NaN	NaN	3946636.5	452971.9688	11425.98479	Arc C1; B. Olson; uncert based on notes
+2	24	72	2	2	11	NaN	3	NaN	3948526.25	451224.4063	11678.75392	DRI S. Bacon
+2	24	73	2	2	9	NaN	3.5	0.5	3948533.25	451247.9063	11699.60466	DRI S. Bacon
+2	21	15	1	NaN	35	NaN	5.5	0.5	3946880.5	453236.4375	11783.95428	Arc C1; B. Olson; STOB-40; includes addtional 5cm of LL
+2	24	74	NaN	1	2.5	0.5	NaN	NaN	3948411.5	451581.5938	11829.98832	DRI S. Bacon
+2	21	14	2	NaN	29	8	2.5	0.5	3946963.5	453269.1563	11867.69486	Arc C1; B. Olson; STOB-38. Midpoint and range of two meas: 24 cm +/-3 cm and 34 cm +/- 3 cm
+2	21	16	2	NaN	26	4	4	NaN	3947018.5	453318.6563	11941.75529	"Arc C1; B. Olson; uncert as 5 cm, but used midpoint and range"
+3	21	17	2	NaN	NaN	NaN	20	NaN	3947084.25	453365.375	12022.0511	Arc C1; B. Olson; R. Gold notes
+2	21	13	2	0.5	13	3	12.5	2.5	3947171.25	453411.0938	12117.34118	R. gold gps wpt 525
+2	24	75	2	NaN	11	NaN	2.5	0.5	3948655.5	451839.0938	12183.45819	H from Arc C1 B. Olson; V from DRI-151 
+2	21	12	NaN	16	17	2	NaN	NaN	3947414.75	453484.125	12347.93253	R. gold gps wpt 522
+2	21	11	NaN	NaN	7	2	NaN	NaN	3947654.75	453830.9375	12757.67168	"Arc C1; A. Morelan; LL graben with cm scale (7cm, LL) +/- 2cm on one strand (N). 10m wide zone trending 009, N9E. "
+2	21	10	NaN	NaN	5	NaN	NaN	NaN	3947831	453944.3125	12964.81934	"Arc C1; A. Morelan; LL, dominantly expressed as a fissure. 5cm LL minimum based on crack edge offset. "
+2	23	76	2	15	28	3	2	NaN	3949127.25	452595.4375	13038.52839	Kendrick gps
+2	22	64	2	NaN	7	1	2	0.5	3948363.25	454079.4375	13452.43244	Arc C3b; B. Olson
+2	22	65	NaN	NaN	1.5	NaN	NaN	NaN	3948501	453963.1563	13478.20323	Arc C3b; B. Olson
+2	23	77	2	NaN	30.5	5	5	NaN	3949541.75	452939.2813	13576.73163	Arc C2; J. Hernandez
+2	22	66	NaN	15	3.5	1	NaN	NaN	3948660.5	454132.7188	13710.15829	Arc C3b; B. Olson
+2	21	9	NaN	8	5	NaN	NaN	NaN	3948528.5	454297.5625	13720.82989	Arc C3b; B. Swanson; 8 m wide right stepping zone with most slip concentrated on 2 cracks near west margin. estimate 5+ cm of LL displacement of old dirt road berm.
+2	23	78	NaN	NaN	2	NaN	NaN	NaN	3949706.5	453119.2188	13819.44244	Arc C2; J. Hernandez
+2	22	67	NaN	NaN	2.25	2.25	NaN	NaN	3948774.75	454196.5	13837.91123	"Arc C3b; B. Olson; reported as 2 +/- 2.5 cm, 4.5 cm total minmium LL"
+2	21	8	NaN	6	10	NaN	NaN	NaN	3948634.75	454375.8438	13852.28052	Arc C1; A. Morelan; fault zone width 6m. 10cm minimum offset due to rotation of road.
+2	21	6	NaN	1	8.5	1	NaN	NaN	3948718.5	454405.1563	13934.45186	Arc C3b; B. Olson; summed 7 and 1.5 cm meas
+2	21	7	NaN	NaN	13	3	NaN	NaN	3948764.75	454434.1563	13988.1847	Arc C3b; K. Kendrick; summed 8 +/- 3 cm and 5 cm meas
+2	21	5	NaN	NaN	3	NaN	NaN	NaN	3948981.75	454784.0625	14382.76063	Arc C3b; B. Swanson
+3	22	70	2	NaN	NaN	NaN	7	1	3949390.25	454574.5625	14549.23669	Arc C3b; B. Olson
+2	23	79	NaN	NaN	17	3	NaN	NaN	3950330.25	453611	14612.35724	Arc C2; J. Hernandez + R. Gold notes
+2	22	69	NaN	NaN	2.5	0.5	NaN	NaN	3949566.75	454700.2188	14764.67615	Arc C3b; B. Olson
+2	23	80	2	NaN	11	2	6	NaN	3950451	453713.2813	14770.58053	Arc C2; J. Hernandez
+2	22	68	NaN	NaN	2.5	0.5	NaN	NaN	3949614.25	454719.8125	14813.09954	Arc C3b; B. Olson
+2	21	4	NaN	0.5	1.5	NaN	NaN	NaN	3949496.75	455157.6563	15016.05901	Arc C3b; B. Swanson
+2	21	3	NaN	NaN	1.5	0.5	NaN	NaN	3949814	455326.8438	15365.58589	Arc C3b; F. Valencia
+2	21	1	NaN	1.5	2.5	NaN	NaN	NaN	3949899.5	455428	15496.66318	Arc C3b; distinct minor fault in 1.5 m wide right stepping enechelon zone shows 2.5 cm LL slip on N43E slip vector.
+2	21	2	NaN	NaN	0	NaN	0	NaN	3949975	455480.1875	15587.80917	Arc C3b; 2-m wide zone of cracks
+2	23	81	2	NaN	15	15	5	5	3951259.25	454875.0313	16146.17155	"Arc C2; B. Swanson, revisited by K. Thomas. Midpoint/range of total H and V displ used because of uncetainty in whether disp could be related to landslide"
+2	23	82	NaN	NaN	0	NaN	0	NaN	3952427.5	455599.4688	17500.87934	NE terminus based on J. Hernandez wpt 058

@@ -25,3 +25,21 @@ Tvalb = sin(a*1) + log(1+1^2);
 % quiver3(1,1,Tvalb,1,1,0,'r','LineWidth',2)
 plot(1,1,'rd','MarkerFaceColor','r','MarkerSize',10)
 quiver(1,1,3/2,1/2,'r','LineWidth',2)
+
+%%
+
+clear
+ng = 50;
+x = linspace(-5,5,ng)';
+y = linspace(-5,5,ng)';
+[X,Y] = meshgrid(x,y);
+F = exp(-(X.^2 + Y.^2));
+
+[Fx,Fy] = gradient(F,x,y);
+
+figure(1),clf
+pcolor(x,y,F), hold on
+quiver(X(:),Y(:),Fx(:),Fy(:),'r-','LineWidth',2)
+grid on, box on
+axis tight equal
+colormap(gray)
