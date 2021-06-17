@@ -28,11 +28,11 @@ oy = linspace(-250e3,250e3,ny)';
 % displacement kernels
 [Gs,Gd] = rcv.displacementKernels([X(:),Y(:),0.*X(:)],3);
 
-slip = zeros(rcv.N,1);
-meanc = mean(rcv.xc);
-dist_meanc = (rcv.xc(:,1)-meanc(1)).^2 + (rcv.xc(:,2)-meanc(2)).^2 + (rcv.xc(:,3)-meanc(3)).^2;
-ind = dist_meanc==min(dist_meanc);
-slip(ind) = 1;
+slip = 15*ones(rcv.N,1);
+% meanc = mean(rcv.xc);
+% dist_meanc = (rcv.xc(:,1)-meanc(1)).^2 + (rcv.xc(:,2)-meanc(2)).^2 + (rcv.xc(:,3)-meanc(3)).^2;
+% ind = dist_meanc==min(dist_meanc);
+% slip(ind) = 1;
 
 % displacements
 u = Gs*slip;
@@ -41,7 +41,7 @@ un = u(2:3:end);
 uz = u(3:3:end);
 
 % downsample vectors
-nq = 13;
+nq = 8;
 
 %% plot surface displacements
 
@@ -50,25 +50,25 @@ figure(1),clf
 subplot(121)
 imagesc(ox./1e3,oy./1e3,reshape(uz,ny,nx))
 hold on
-contour(ox./1e3,oy./1e3,reshape(uz,ny,nx),[-1:0.1:1].*1e-2,'k')
+contour(ox./1e3,oy./1e3,reshape(uz,ny,nx),[-1:0.1:1].*1e-1,'k')
 quiver(X(1:nq:end)'./1e3,Y(1:nq:end)'./1e3,ue(1:nq:end),un(1:nq:end),'k-','LineWidth',2)
 axis tight equal, grid on, box on
 colormap jet(200)
 cb=colorbar;cb.Label.String = 'u_z';
-caxis([-1 1].*1e-2)
+caxis([-1 1].*1)
 xlabel('x_2 (km)'),ylabel('x_1 (km)')
 set(gca,'YDir','normal','FontSize',20)
 
 subplot(122)
-imagesc(ox./1e3,oy./1e3,reshape(uz,ny,nx))
+imagesc(ox./1e3,oy./1e3,reshape(uz,ny,nx)), alpha 0.5
 hold on
-contour(ox./1e3,oy./1e3,reshape(uz,ny,nx),[-1:0.1:1].*5e-4,'k')
+contour(ox./1e3,oy./1e3,reshape(uz,ny,nx),[-1:0.1:1].*1e-1,'k')
 quiver(X(1:nq:end)'./1e3,Y(1:nq:end)'./1e3,ue(1:nq:end),un(1:nq:end),'k-','LineWidth',2)
 axis tight equal, grid on, box on
-colormap jet(200)
+colormap bluewhitered(200)
 cb=colorbar;cb.Label.String = 'u_z';
-caxis([-1 1].*5e-4)
+caxis([-1 1].*1e-1)
 xlabel('x_2 (km)'),ylabel('x_1 (km)')
 set(gca,'YDir','normal','FontSize',20)
 
-print('ssfault_surfdisplacements','-djpeg','-r300')
+print('ssfault_surfdisplacements_6','-djpeg','-r300')
