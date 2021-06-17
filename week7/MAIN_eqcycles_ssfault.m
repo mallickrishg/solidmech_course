@@ -12,7 +12,7 @@ addpath ~/Dropbox/scripts/utils/
 G = 30e3; %MPa
 
 % fault patches
-M = 200; % patch size = 20e3/M
+M = 300; % patch size = 20e3/M
 
 y2i = 0;
 y3i = zeros(length(y2i),1);
@@ -66,12 +66,12 @@ ss.sigma = 50.*ones(ss.M,1);
 ss.a = 1e-2*ones(ss.M,1);
 ss.b = ss.a - 5e-3*ones(ss.M,1);
 % region of velocity-weakening
-vw = ss.y3c>=0.5e3 & ss.y3c<=15e3;
+vw = ss.y3c>=2e3 & ss.y3c<=15e3;
 ss.b(vw) = ss.a(vw) + 5e-3;
 % static friction coefficient
 ss.mu0 = 0.6*ones(ss.M,1);
 % characteristic weakening distance (m)
-ss.l = 0.01*ones(ss.M,1);
+ss.l = 0.004*ones(ss.M,1);
 % plate velocity (m/s)
 ss.Vpl = Vpl*ones(ss.M,1);
 % reference slip rate (m/s)
@@ -113,7 +113,7 @@ vinit = log(ss.Vpl*0.99./ss.Vo);
 Y0(3:ss.dgf:ss.M*ss.dgf) = vinit; % v
 
 % Simulation Duration
-Tend = 30/Vpl/3.15e7;%years
+Tend = 20/Vpl/3.15e7;%years
 
 tic
 % initialize the function handle with
@@ -168,14 +168,14 @@ set(gca,'YScale','log','FontSize',15)
 
 %% surface observations
 % choose earthquake
-neq = 10;
+neq = 12;
 
 % resample data to mimic GPS
-tresamp = (tvec_eq(neq)-3.15e7*1:86400:tvec_eq(neq)+3.15e7*1)';
+tresamp = (tvec_eq(neq)-3.15e7*2:86400:tvec_eq(neq)+3.15e7*2)';
 Vresamp = interp1(t,V,tresamp);
 slipresamp = interp1(t,slip,tresamp);
 
-nobs = 90;
+nobs = 60;
 obs = [linspace(-100e3,100e3,nobs)' zeros(nobs,1)];
 
 % displacement kernels
@@ -189,7 +189,9 @@ v1 = veq + repmat(Vpl/pi*atan2(obs(:,1),Transition)',length(tresamp),1);
 u1 = ueq + repmat(Vpl/pi*atan2(obs(:,1),Transition)',length(tresamp),1).*repmat(tresamp,1,nobs);
 
 u1 = u1 - repmat(u1(1,:),length(tresamp),1);
-%% export data
+
+% export data
+
 u1_eq = Gd.kd*slip_eq(neq,:)';
 
 figure(3),clf
@@ -205,30 +207,31 @@ axis tight, grid on
 % ylim([0 max(u1_eq)]), xlim([0 max(obs(:,1)./1e3)])
 ylabel('u_1 (m)'), xlabel('x_2 (km)')
 set(gca,'Fontsize',15,'LineWidth',1)
-
+%%
 ox = obs(:,1);
 
 T = table(ox,u1_eq);
-writetable(T,'assignment_week7/eq_displacement.dat');
-
+% writetable(T,'assignment_week7/eq_displacement.dat');
+writetable(T,'eq_displacement.dat');
 %
 figure(2),clf
 subplot(211)
-plot(tresamp./3.15e7, u1(:,1:2:50),'.','LineWidth',1)
+plot(tresamp./3.15e7, u1(:,1:4:end),'.','LineWidth',1)
 axis tight, grid on
 xlabel('Time (yr)'), ylabel('u_1 (m)')
 set(gca,'Fontsize',15)
 
 subplot(212)
-plot(tresamp./3.15e7, v1(:,1:2:50)./Vpl,'.','LineWidth',1)
+plot(tresamp./3.15e7, v1(:,1:4:end)./Vpl,'.','LineWidth',1)
 axis tight, grid on
-ylim([-1 1]*5)
-xlabel('Time (yr)'), ylabel('u_1 (m)')
+ylim([0 1]*2)
+xlabel('Time (yr)'), ylabel('v_1 (m)')
 set(gca,'Fontsize',15)
 
 tvals = (tresamp-tvec_eq(neq))./86400;% in days
 T = table(tvals,u1);
-writetable(T,'assignment_week7/gps_timeseries.dat');
+% writetable(T,'assignment_week7/gps_timeseries.dat');
+writetable(T,'gps_timeseries.dat');
 
 
 
