@@ -10,7 +10,10 @@ eq_dat = readtable('eq_displacement.dat');
 ox = eq_dat.ox;
 ueq = eq_dat.u1_eq + 0.0005*randn(length(ox),1);% add noise for abic
 
- 
+% gps = readtable('gps_timeseries.dat');
+% t = gps.tvals;
+% usta = gps{:,2:end};
+
 %% define greens functions
 % shear modulus
 G = 30e3; %in MPa
@@ -28,7 +31,7 @@ u1h=@(x2,x3,y2,y3,W) ...
     )/2/pi;
 %% create fault model
 ss = [];
-ss.N = 100;
+ss.N = 40;
 y3edge = linspace(0,20e3,ss.N+1)';
 W = diff(y3edge);
 ss.W = W;
@@ -45,7 +48,7 @@ for i = 1:ss.N
 end
 %% run inversion with smoothing
 
-lvec = 10.^[-6:.05:0]';
+lvec = 10.^[-6:.1:1]';
 meqvec = zeros(ss.N,length(lvec));
 resvec = zeros(length(lvec),1);
 abicvec = zeros(length(lvec),1);
@@ -53,8 +56,9 @@ abicvec = zeros(length(lvec),1);
 % define smoothing matrix
 Lsm = compute_laplacian1d(ss.N);
 
+
 for i = 1:length(lvec)
-%     meqvec(:,i) = inv(Gd'*Gd + lvec(i)^2*(Lsm'*Lsm))*Gd'*ueq;
+%     meqvec(:,i) = (Gd'*Gd + lvec(i)^2*(Lsm'*Lsm))\Gd'*ueq;
     meqvec(:,i) = lsqnonneg([Gd;lvec(i).*Lsm],[ueq;zeros(ss.N,1)]);
     resvec(i) = (ueq-Gd*meqvec(:,i))'*(ueq-Gd*meqvec(:,i));
     abicvec(i) = abic_alphabeta_sc(ueq,1,Gd,lvec(i),Lsm,0);
@@ -62,17 +66,19 @@ end
 
 % choose models that are acceptable
 loptind = find(abicvec==min(abicvec));
-mst = loptind-2; mend = loptind+3;
+mst = loptind-5; mend = loptind+5;
+% mst = 5; mend = 10;
 cspec = jet(mend-mst+1);
 
 % smoothing results/stats
 figure(10),clf
+set(gcf,'Position',[1 1 1.5 1.5].*500)
 subplot(211)
 semilogx(lvec,resvec,'-','LineWidth',2), hold on
 semilogx(lvec(mst:mend),resvec(mst:mend),'rp','MarkerSize',10)
 axis tight, grid on
 ylabel('\epsilon^t \epsilon'), xlabel('\lambda')
-set(gca,'FontSize',20,'LineWidth',1)
+set(gca,'FontSize',20,'LineWidth',1,'YScale','log')
   
 subplot(212)
 semilogx(lvec,abicvec-min(abicvec(:)),'-','LineWidth',2)
@@ -82,6 +88,7 @@ set(gca,'FontSize',20,'LineWidth',1)
 
 % plot slip results
 figure(11),clf
+set(gcf,'Position',[0 2 1.5 3].*500)
 subplot(2,1,1)
 plot(ox./1e3,ueq,'ro'), hold on
 for i = mst:mend
@@ -113,7 +120,7 @@ end
 
 % choose models that are acceptable
 loptind = find(abicvec==min(abicvec));
-mst = loptind-2; mend = loptind+3;
+mst = loptind-5; mend = loptind+5;
 cspec = jet(mend-mst+1);
 
 figure(20),clf
@@ -122,7 +129,7 @@ semilogx(lvec,resvec,'-','LineWidth',2), hold on
 semilogx(lvec(mst:mend),resvec(mst:mend),'rp','MarkerSize',10)
 axis tight, grid on
 ylabel('\epsilon^t \epsilon'), xlabel('\beta')
-set(gca,'FontSize',20,'LineWidth',1)
+set(gca,'FontSize',20,'LineWidth',1,'YScale','log')
   
 subplot(212)
 semilogx(lvec,abicvec-min(abicvec(:)),'-','LineWidth',2), hold on
@@ -132,6 +139,7 @@ set(gca,'FontSize',20,'LineWidth',1)
 
 % plot slip results
 figure(21),clf
+set(gcf,'Position',[1.5 2 1.5 3].*500)
 subplot(2,1,1)
 plot(ox./1e3,ueq,'ro'), hold on
 for i = mst:mend
@@ -182,6 +190,7 @@ set(gca,'YScale','log','XScale','log','FontSize',20,'LineWidth',2,'TickDir','bot
 % plot results
 cspec = jet(length(modelrangeind));
 figure(31),clf
+set(gcf,'Position',[3 2 1.5 3].*500)
 subplot(2,1,1)
 plot(ox./1e3,ueq,'ro'), hold on
 for i = 1:length(modelrangeind)
