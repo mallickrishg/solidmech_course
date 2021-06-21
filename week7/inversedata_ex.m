@@ -4,8 +4,10 @@
 clear
 addpath ~/Dropbox/scripts/utils
 
-eq_dat = readtable('assignment_week7/eq_displacement.dat');
-gps = readtable('assignment_week7/gps_timeseries.dat');
+% eq_dat = readtable('assignment_week7/eq_displacement.dat');
+% gps = readtable('assignment_week7/gps_timeseries.dat');
+eq_dat = readtable('datacheck/eq_displacement.dat');
+gps = readtable('datacheck/gps_timeseries.dat');
 
 % eq_dat = readtable('eq_displacement.dat');
 % gps = readtable('gps_timeseries.dat');
@@ -55,8 +57,8 @@ resvec = zeros(length(lvec),1);
 
 % define smoothing matrix
 % Lsm = eye(ss.N);
-Lsm = K12;
-% Lsm = compute_laplacian1d(ss.N);
+% Lsm = K12;
+Lsm = compute_laplacian1d(ss.N);
 
 for i = 1:length(lvec)
 %     mvec(:,i) = inv(Gd'*Gd + lvec(i)^2*(Lsm'*Lsm))*Gd'*ueq;
@@ -65,7 +67,7 @@ for i = 1:length(lvec)
 end
 
 % choose models that are acceptable
-mst = 1; mend = 5;
+mst = 15; mend = 20;
 
 figure(10),clf
 subplot(311)
@@ -112,17 +114,21 @@ ustamod = usta(tind,:)-usta(find(tind,1),:);
 % design matrix
 Gvel = [ones(length(tvec),1) tvec];
 % estimate interseismic velocity for each station
-vinter = zeros(length(ox),1);
+vinterobs = zeros(length(ox),1);
 for i = 1:length(ox)
     mvel = Gvel\ustamod(:,i);
-    vinter(i) = mvel(2);
+    vinterobs(i) = mvel(2);
 end
 % remove arc-tangent
-vinter = vinter - Vpl/pi*atan2(ox,20e3);
+vinter = (vinterobs - Vpl/pi*atan2(ox,20e3))./Vpl;
 
 % invert for interseismic sliprate
 for i = 1:length(lvec)
-    mintervec(:,i) = lsqnonneg([Gd;lvec(i).*Lsm],[vinter;zeros(ss.N,1)]);
+%     mintervec(:,i) = lsqnonneg([Gd;lvec(i).*Lsm],[vinter;zeros(ss.N,1)]);
+    A = zeros(1,ss.N);A(end) = 1;
+    b = 1;
+    mintervec(:,i) = lsqlin([Gd;lvec(i).*Lsm],[vinter;zeros(ss.N,1)],...
+        [],[],A,b,zeros(ss.N,1),ones(ss.N,1));
     rintervec(i) = (vinter-Gd*mintervec(:,i))'*(vinter-Gd*mintervec(:,i));
 end
 
@@ -133,18 +139,18 @@ axis tight, grid on
 ylabel('\epsilon^t \epsilon'), xlabel('\lambda')
 set(gca,'FontSize',20,'LineWidth',1)
 
-mst = 1; mend = 5;
+mst = 15; mend = 20;
 % plot interseismic results
 figure(8),clf
 subplot(2,1,1)
-plot(ox./1e3,vinter+Vpl/pi*atan2(ox,20e3),'ro'), hold on
-plot(ox./1e3,Gd*mintervec(:,mst:mend)+Vpl/pi*atan2(ox,20e3),'-','LineWidth',1)
+plot(ox./1e3,vinter+1/pi*atan2(ox,20e3),'ro'), hold on
+plot(ox./1e3,Gd*mintervec(:,mst:mend)+1/pi*atan2(ox,20e3),'-','LineWidth',1)
 axis tight, grid on
-xlabel('x_2 (km)'), ylabel('v_1 (m/day)')
+xlabel('x_2 (km)'), ylabel('v_1/v_{pl}')
 set(gca,'FontSize',20,'LineWidth',1)
 
 subplot(2,1,2)
-plot(mintervec(:,mst:mend)./Vpl,ss.y3c./1e3,'-','LineWidth',1)
+plot(mintervec(:,mst:mend),ss.y3c./1e3,'-','LineWidth',1)
 axis tight, grid on
 xlabel('Normalized Sliprate'), ylabel('x_3 (km)')
 set(gca,'FontSize',20,'LineWidth',1,'YDir','reverse')
@@ -153,7 +159,7 @@ mpostvec = zeros(ss.N,length(lvec));
 rpostvec = nan(length(lvec),1);
 
 % extract time window
-tind = t>0 & t<=700;% & t<=100;
+tind = t>0 & t<=300;% & t<=100;
 ustamod = (usta(tind,:)-usta(find(tind,1),:) - ...
     repmat(Vpl/pi*atan(ox'./20e3),length(t(tind)),1).*repmat(t(tind),1,length(ox)));% remove deep creep signal
 [U,S,V] = svd(ustamod,'econ');
@@ -183,7 +189,7 @@ axis tight, grid on
 ylabel('\epsilon^t \epsilon'), xlabel('\lambda')
 set(gca,'FontSize',20,'LineWidth',1)
 
-mst = 1; mend = 5;
+mst = 10; mend = 15;
 % plot postseismic slip results
 figure(21),clf
 subplot(2,1,1)
@@ -201,7 +207,7 @@ xlabel('Slip (mode)'), ylabel('x_3 (km)')
 set(gca,'FontSize',20,'LineWidth',1,'YDir','reverse')
     
 %% recombine to get slip distribution timeseries
-mbest = 1;
+mbest = 10;
 spostapprox = Svals(srank).*mpostvec(:,mbest)*U(:,srank)';
 
 figure(30),clf
@@ -217,12 +223,13 @@ xlabel('x_2 (km)'), ylabel('u_1 (m)')
 set(gca,'FontSize',20,'LineWidth',1)
 
 subplot(2,1,2)
-plot(meqvec(:,mbest),ss.y3c./1e3,'-','LineWidth',3,'Color',rgb('orange')), hold on
-plot(spostapprox(:,end),ss.y3c./1e3,'-','LineWidth',2,'Color',rgb('forestgreen'))
-plot(mintervec(:,mbest)./Vpl,ss.y3c./1e3,'-','LineWidth',2,'Color',rgb('steelblue'))
+plot(meqvec(:,mbest)./max(meqvec(:,mbest)),ss.y3c./1e3,'-','LineWidth',3,'Color',rgb('orange')), hold on
+plot(spostapprox(:,end)./max(spostapprox(:,end)),ss.y3c./1e3,'-','LineWidth',2,'Color',rgb('forestgreen'))
+plot(mintervec(:,mbest),ss.y3c./1e3,'-','LineWidth',2,'Color',rgb('steelblue'))
 axis tight, grid on
-% legend('coseismic','afterslip')
-xlabel('Slip (m)'), ylabel('x_3 (km)')
+xlim([0 1.1])
+legend('coseismic','afterslip','interseismic')
+xlabel('Slip (normalized)'), ylabel('x_3 (km)')
 set(gca,'FontSize',20,'LineWidth',1,'YDir','reverse')
     
 %% derive stress-displacement relationship    
@@ -246,7 +253,8 @@ axis tight, grid on
 set(gca,'FontSize',20,'LineWidth',1,'YDir','reverse')
 
 % estimate frictional properties
-ind = [71:2:100];
+% ind = [1:2:50];
+ind = find(spostapprox(:,end)>0.1);
 figure(41),clf
 for i = 1:length(ind)
 %     subplot(211)
@@ -260,11 +268,12 @@ for i = 1:length(ind)
 %     set(gca,'FontSize',20,'LineWidth',1)
 %     
 %     subplot(212)
-    toplot = (taupost(ind(i),2:end) - (min(taupost(ind(i),:))+.5*i)*1);
+    toplot = taupost(ind(i),2:end) - (min(taupost(ind(i),:))) + 0.1*i;
     scatter(vpost(ind(i),:),toplot,60,tvec(2:end),'o','filled','MarkerEdgeColor','none'), hold on
     axis tight, grid on, box on
     ylabel('\tau (MPa)'), xlabel('v (m/day)')
     cb=colorbar;cb.Label.String = 'Time (days)';
+    colormap(jet)
     set(gca,'FontSize',20,'LineWidth',1,'Xscale','log')%,'Yscale','lin')
 end
     
