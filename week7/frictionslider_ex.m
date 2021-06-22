@@ -21,7 +21,7 @@ evl = [];
 evl.k = k;
 evl.Vpl = Vpl;
 evl.Asigma = Asigma;
-evl.m = 1;% power law
+evl.m = 10;% power law
 % set friction law
 evl.frictionlaw = 1;% v^(1/m) power dependent
 

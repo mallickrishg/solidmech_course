@@ -10,10 +10,10 @@ Vpl = 1;
 
 % time vector
 % t = linspace(0,10/a/Vpl,1e3)';
-t = logspace(-4,log10(10/a),1e3)';
+t = logspace(-4,log10(1/a),1e3)';
 
 % velocity evo solutions
-vlin = 1+exp(-a.*t).*(b-1);
+vlin = 1+exp(-a/.05.*t).*(b-1);
 vpower2 = abs(tanh(atanh(sqrt(b)) + sqrt(Vpl)*a.*t).^2);
 vlog = b./(b+exp(-Vpl*a.*t).*(1-b));
 
@@ -24,7 +24,7 @@ plot(t,vlog,'-','LineWidth',2,'Color',rgb('purple'))
 axis tight, grid on
 legend('f = Av','f = Av^{1/2}','f = A log(v)')
 xlabel('t'), ylabel('V(t)')
-set(gca,'Fontsize',20,'YScale','log','Xscale','log','LineWidth',1)
+set(gca,'Fontsize',20,'YScale','lin','Xscale','lin','LineWidth',1)
 % print(['vcomp_' num2str((Vpl)) 'vi_' num2str(b)],'-djpeg','-r300')
 
 %% compute slip
