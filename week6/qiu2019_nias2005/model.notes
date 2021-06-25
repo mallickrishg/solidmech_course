@@ -1,4 +1,0 @@
-niasAS041216_tri.lonlat --- it is the coordinates for the triangular vertices 
-niasAS041216_tri.net  --- the triangulation to form the triangular elements
-inverse_okada_slip_dist_Nias2005_exp222_LonLatSlipTri.txt ---- the coseismic slip file. In the file itself, it has the header for the meaning of each column
-niasAS_270618.txt --- it is the afterslip estimates on the same fault as the coseismic. The slip is saved in alternative way e.g., you can get strike slip and dip slip in this way in Matlab. pp = load('2005nias_AS_paul_Banyak.txt'); ss = pp(1:2:end); ds = pp(2:2:end);  
